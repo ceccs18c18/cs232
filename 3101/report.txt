@@ -1,0 +1,113 @@
+ceccs18c18
+Gopika Pradeep
+
+--------------------------------
+#1: Aim/task
+To study basic linux commands
+Command/Shell script/Program name
+
+---------------------------------
+
+Input:
+     files:   
+	abc.txt
+	xyz.txt
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+ output:
+	work file:work.txt
+	report file: report.txt
+
+-------------------
+commands :
+input: cat abc.txt
+output:
+8
+7
+9
+4
+1
+
+
+
+input:	ls
+output:
+abc.txt  work.txt  xyz.txt
+
+input:	sort abc.txt
+output:
+1
+4
+7
+8
+9
+
+input:	sort -r abc.txt
+output:
+9
+8
+7
+4
+1
+
+input:	ls-ltr
+output:total 8
+-rw-r--r-- 1 s4c1 s4c1  0 Jan 30 21:47 work.txt
+-rw-r--r-- 1 s4c1 s4c1 10 Jan 30 22:01 abc.txt
+-rw-r--r-- 1 s4c1 s4c1 73 Jan 30 22:06 xyz.txt
+
+input:	cut -b 1,2 abc.txt
+output:
+hi
+ro
+li
+su
+
+input:	grep sun xyz.txt
+output:
+sunflower 
+input:	paste abc.txt xyz.txt
+output:
+8	hibiscus is red in colour
+7	rose is beautiful
+9	lilly is a flower
+4	sunflower 
+1	
+
+input:	ll
+output:
+total 16
+drwxr-xr-x 2 s4c1 s4c1 4096 Jan 30 22:06 ./
+drwxr-xr-x 3 s4c1 s4c1 4096 Jan 30 21:46 ../
+-rw-r--r-- 1 s4c1 s4c1   10 Jan 30 22:01 abc.txt
+-rw-r--r-- 1 s4c1 s4c1    0 Jan 30 21:47 work.txt
+-rw-r--r-- 1 s4c1 s4c1   73 Jan 30 22:06 xyz.txt
+
+	history
+1  cat abc.txt
+    2  cat > abc.txt
+    3  cat abc.txt
+    4  cat > xyz.txt
+    5  ls
+    6  sort abc.txt
+    7  sort -r abc.txt
+    8  ls -ltr
+    9  cut -b 1,2 xyz.txt
+   10  grep lilly xyz.txt
+   11  grep sun xyz.txt
+   12  paste abc.txt xyz.txt
+   13  ll
+   14  cut -c -5 xyz.txt
+   15  history
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+
+

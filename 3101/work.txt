@@ -1,0 +1,79 @@
+Script started on 2020-01-30 21:47:56+0530
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/3101[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/3101[00m$ cat abc.txt
+cat: abc.txt: No such file or directory
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/3101[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/3101[00m$ cat > abc.txt
+^C
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/3101[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/3101[00m$ cat > abc.txt[2Pabc.txt
+8
+7
+9
+4
+1
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/3101[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/3101[00m$ cat abc.txt> abc.txt[1P.txt[1P.txt[1P.txtx.txty.txtz.txt
+^[[A^[[A        ^C
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/3101[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/3101[00m$ cat > xyz.txt[2Pabc.txt[C[C[C[C[K[K[K[K[K[K[K[K[K[K[Kls
+abc.txt  work.txt  xyz.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/3101[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/3101[00m$ sort -n abc.txt[C[1P abc.txt[1P abc.txt[C[C[C[C[1P.txtc.txt[1Pabc.txt
+1
+4
+7
+8
+9
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/3101[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/3101[00m$ sort -r abc.txt
+9
+8
+7
+4
+1
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/3101[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/3101[00m$ ls -ltr
+total 8
+-rw-r--r-- 1 s4c1 s4c1  0 Jan 30 21:47 work.txt
+-rw-r--r-- 1 s4c1 s4c1 10 Jan 30 22:01 abc.txt
+-rw-r--r-- 1 s4c1 s4c1 73 Jan 30 22:06 xyz.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/3101[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/3101[00m$ cut -b 1,2,3[K[K xyz.txt
+hi
+ro
+li
+su
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/3101[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/3101[00m$ grep lilly xyz.txt
+[01;31m[Klilly[m[K is a flower
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/3101[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/3101[00m$ grep sun xyz.txt
+[01;31m[Ksun[m[Kflower 
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/3101[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/3101[00m$ paste abc.txt xyz.txt
+8	hibiscus is red in colour
+7	rose is beautiful
+9	lilly is a flower
+4	sunflower 
+1	
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/3101[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/3101[00m$ pastr[Ke [K[K[K[K[K[Kll
+total 16
+drwxr-xr-x 2 s4c1 s4c1 4096 Jan 30 22:06 [0m[01;34m.[0m/
+drwxr-xr-x 3 s4c1 s4c1 4096 Jan 30 21:46 [01;34m..[0m/
+-rw-r--r-- 1 s4c1 s4c1   10 Jan 30 22:01 abc.txt
+-rw-r--r-- 1 s4c1 s4c1    0 Jan 30 21:47 work.txt
+-rw-r--r-- 1 s4c1 s4c1   73 Jan 30 22:06 xyz.txt
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/3101[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/3101[00m$ cut -c -5xyz.txt xyz.txt
+hibis
+rose 
+lilly
+sunfl
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/3101[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/3101[00m$ history
+    1  cat abc.txt
+    2  cat > abc.txt
+    3  cat abc.txt
+    4  cat > xyz.txt
+    5  ls
+    6  sort abc.txt
+    7  sort -r abc.txt
+    8  ls -ltr
+    9  cut -b 1,2 xyz.txt
+   10  grep lilly xyz.txt
+   11  grep sun xyz.txt
+   12  paste abc.txt xyz.txt
+   13  ll
+   14  cut -c -5 xyz.txt
+   15  history
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/3101[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/3101[00m$ exit[K[Kit
+exit
+
+Script done on 2020-01-30 22:37:37+0530
