@@ -1,0 +1,90 @@
+Script started on 2020-02-07 10:27:28+0530
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/0702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/0702[00m$ inexitsftp cs18c18@192.168.0.30[5Pudo apt-install git[7Pgit --versionsudo apt install gitgit config --global "ceccs18c18"[12Psudo apt install git[7Pgit --versionsudo apt-install gitftp cs18c18@192.168.0.30exit[K[2Pinconfig
+
+Command 'inconfig' not found, did you mean:
+
+  command 'iconfig' from deb ipmiutil
+  command 'ifconfig' from deb net-tools
+  command 'iwconfig' from deb wireless-tools
+
+Try: apt install <deb name>
+
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/0702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/0702[00m$ ifconfig
+enp1s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.214  netmask 255.255.254.0  broadcast 192.168.1.255
+        inet6 fe80::e87b:12d6:41c:8d1  prefixlen 64  scopeid 0x20<link>
+        ether 8c:ec:4b:d6:5d:28  txqueuelen 1000  (Ethernet)
+        RX packets 448326  bytes 541051052 (541.0 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 166091  bytes 11378237 (11.3 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 1730  bytes 120260 (120.2 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1730  bytes 120260 (120.2 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp2s0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether ec:5c:68:5a:dd:ab  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/0702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/0702[00m$ route -m[Kn
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 enp1s0
+192.168.0.0     0.0.0.0         255.255.254.0   U     100    0        0 enp1s0
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/0702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/0702[00m$ route -nifconfig [K[K[K[K[K[K[K[K[Kinconfig[4Pexitsftp cs18c18@192.168.0.30exit[Kinconfig[Kinconfig[4Pexit[K[K[K[Kroute add defaultgw[K[K gw 192.168.0.2
+SIOCADDRT: Operation not permitted
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/0702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/0702[00m$ route add default gw 192.168.0.2[K[K[K1.1
+SIOCADDRT: Operation not permitted
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/0702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/0702[00m$ ping192'[K,[K. 192.[C[C[C[C168.0.2
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+64 bytes from 192.168.0.2: icmp_seq=1 ttl=64 time=0.429 ms
+64 bytes from 192.168.0.2: icmp_seq=2 ttl=64 time=0.671 ms
+64 bytes from 192.168.0.2: icmp_seq=3 ttl=64 time=0.706 ms
+64 bytes from 192.168.0.2: icmp_seq=4 ttl=64 time=0.416 ms
+64 bytes from 192.168.0.2: icmp_seq=5 ttl=64 time=0.783 ms
+64 bytes from 192.168.0.2: icmp_seq=6 ttl=64 time=0.510 ms
+64 bytes from 192.168.0.2: icmp_seq=7 ttl=64 time=0.411 ms
+64 bytes from 192.168.0.2: icmp_seq=8 ttl=64 time=0.766 ms
+64 bytes from 192.168.0.2: icmp_seq=9 ttl=64 time=0.774 ms
+64 bytes from 192.168.0.2: icmp_seq=10 ttl=64 time=0.411 ms
+64 bytes from 192.168.0.2: icmp_seq=11 ttl=64 time=0.843 ms
+64 bytes from 192.168.0.2: icmp_seq=12 ttl=64 time=0.369 ms
+64 bytes from 192.168.0.2: icmp_seq=13 ttl=64 time=0.348 ms
+64 bytes from 192.168.0.2: icmp_seq=14 ttl=64 time=0.357 ms
+^C
+--- 192.168.0.2 ping statistics ---
+14 packets transmitted, 14 received, 0% packet loss, time 13302ms
+rtt min/avg/max/mdev = 0.348/0.556/0.843/0.183 ms
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/0702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/0702[00m$ cat /etc/resolv.conf
+# This file is managed by man:systemd-resolved(8). Do not edit.
+#
+# This is a dynamic resolv.conf file for connecting local clients to the
+# internal DNS stub resolver of systemd-resolved. This file lists all
+# configured search domains.
+#
+# Run "systemd-resolve --status" to see details about the uplink DNS servers
+# currently in use.
+#
+# Third party programs must not access this file directly, but only through the
+# symlink at /etc/resolv.conf. To manage man:resolv.conf(5) in a different way,
+# replace this symlink by a static file or a different symlink.
+#
+# See man:systemd-resolved.service(8) for details about the supported modes of
+# operation for /etc/resolv.conf.
+
+nameserver 127.0.0.53
+search example.org
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/0702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/0702[00m$ echo  [K"nameserver1.1.1.1">>resolv.conf
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/0702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/0702[00m$ exit
+exit
+
+Script done on 2020-02-07 10:54:47+0530

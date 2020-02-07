@@ -1,0 +1,44 @@
+ceccs18c18
+Gopika Pradeep
+
+--------------------------------
+#3: Aim/task:- Networking task
+
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+#ifconfig 
+#route -n
+#route add default gw  192.168.0.2
+#ping 192.168.0.1
+#cat /etc/resolv.conf
+#echo "nameserver1.1.1.1">>resolv.conf
+Input: (If relevant)
+---------------
+
+--------------------------------
+Output: 
+inconfig  display all available networks
+route -n   display kernel routing table
+route add   is used to add a new route
+route add default gw 192.168.0.2    
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+
+
