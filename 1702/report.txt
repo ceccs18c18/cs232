@@ -1,0 +1,34 @@
+ceccs18c18
+Gopika Pradeep
+
+--------------------------------
+#1: Aim/task
+---------------------------------
+ Further Networking tasks (t4)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+
+	ssh
+	rsync
+	scp
+
+--------------------------------
+Output: 
+
+	# ssh cs18c18@192.168.0.30, is used to open a secured connection to remote device
+	
+	# rsync -av 1702/ test/, is used to sync the files 
+	# scp report.txt cs18c18@192.168.0.30:1702, this is used to upload report.txt to 1702/ in the host 192.168.0.30
+
+-------------------
+Remarks if any:
+
+
+
+-------------------------------------
+-------------------------------------
+
+
+--------------------------------

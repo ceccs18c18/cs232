@@ -1,0 +1,106 @@
+Script started on 2020-02-17 10:34:30+0530
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/1702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/1702[00m$ cat abc.txt
+cat: abc.txt: No such file or directory
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/1702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/1702[00m$ cat abc.txt> abc.txt[1@ [1P[C[1@ [C[1P abc.txt> abc.txt
+lilly
+c\  ^C
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/1702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/1702[00m$ ssh [K[K[K[Kcat > abc.txt[2Pabc.txtssh cs18c09@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c09@192.168.0.30's password: 
+Permission denied, please try again.
+cs18c09@192.168.0.30's password: 
+Permission denied, please try again.
+cs18c09@192.168.0.30's password: 
+
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/1702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/1702[00m$ ssh cs18c09@192.168.0.30[11Pcat > abc.txtssh cs18c09@192.168.0.30[1P@192.168.0.30[1P@192.168.0.301@192.168.0.308@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c18@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Feb 17 10:16:59 2020 from 192.168.0.214
+$ ^[[A^[[A        ss cp report txtcs   cs^[[D^[[D^[[D                   .txt cs18c18@192.168.0.30:1702
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c18@192.168.0.30's password: 
+report.txt: No such file or directory
+$ ^[[A^[[A        rsync -av 1702/test
+sending incremental file list
+rsync: change_dir "/home/cs18c18//1702" failed: No such file or directory (2)
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.1]
+$ exit
+Connection to 192.168.0.30 closed.
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/1702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/1702[00m$ pdftotext -layout s1.resul[1Presul[C[C[C[C[Ct
+I/O Error: Couldn't open file 's1result': No such file or directory.
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/1702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/1702[00m$ pdftotext -layout s1result[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kssh cs18c18@192.168.0.3009@192.168.0.30[11Pcat > abc.txt[2Pabc.txt> abc.txtssh cs18c09@192.168.0.3018@192.168.0.30[Kssh cs18c18@192.168.0.3009@192.168.0.3018@192.168.0.30[Kssh cs18c18@192.168.0.30[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K/home/s4c1/Downloads/result_CHN (1).pdf\\[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpdftotet[Kxt -layout s1resuly[Kt.pdf
+I/O Error: Couldn't open file 's1result.pdf': No such file or directory.
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/1702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/1702[00m$ pdftotext -layout s1result.pdf\[K[K[K[K[K
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/1702[01;32ms4c1@us `--'` `-'`-' '  '  ` `--'
+cs18c09@192.168.0.30's password: 
+Permission denied, please try again.
+cs18c09@192.168.0.30's password: 
+Permission denied, please try again.
+cs18c09@192.168.0.30's password: 
+
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/1702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/1702[00m$ ssh cs18c09@192.168.0.30[11Pcat > abc.txtssh cs18c09@192.168.0.30[1P@192.168.0.30[1P@192.168.0.301@192.168.0.308@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c18@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Feb 17 10:16:59 2020 from 192.168.0.214
+$ ^[[A^[[A        ss cp report txtcs   cs^[[D^[[D^[[D                   .txt cs18c18@192.168.0.30:1702
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c18@192.168.0.30's password: 
+report.txt: No such file or directory
+$ ^[[A^[[A        rsync -av 1702/test
+sending incremental file list
+rsync: change_dir "/home/cs18c18//1702" failed: No such file or directory (2)
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.1]
+$ exit
+Connection to 192.168.0.30 closed.
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/1702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/1702[00m$ pdftotext -layout s1.resul[1Presul[C[C[C[C[Ct
+I/O Error: Couldn't open file 's1result': No such file or directory.
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/1702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/1702[00m$ pdftotext -layout s1result[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kssh cs18c18@192.168.0.3009@192.168.0.30[11Pcat > abc.txt[2Pabc.txt> abc.txtssh cs18c09@192.168.0.3018@192.168.0.30[Kssh cs18c18@192.168.0.3009@192.168.0.3018@192.168.0.30[Kssh cs18c18@192.168.0.30[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K/home/s4c1/Downloads/result_CHN (1).pdf\\[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpdftotet[Kxt -layout s1resuly[Kt.pdf
+I/O Error: Couldn't open file 's1result.pdf': No such file or directory.
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/1702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/1702[00m$ pdftotext -layout s1result.pdf\[K[K[K[K[K
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/1702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/1702[00m$ pdftotext -layout s1result[C[1Presult2result
+]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/1702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/1702[00m$ rsync -av 1702/tet[Kst/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksshpdftotext -layout s2result1result.pdf[Kssh cs18c18@192.168.0.30[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krsync -av 1702/test
+sending incremental file list
+rsync: change_dir "/home/s4c1/ceccs18c18/cs232/1702//1702" failed: No such file or directory (2)
+
+sent 20 bytes  received 12 bytes  64.00 bytes/sec
+total size is 0  s
