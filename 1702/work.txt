@@ -11,9 +11,11 @@ c\  ^C
  \  \  / (.-' |(  (   )|  |  |(.-'
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs18c09@192.168.0.30's password: 
-Permission denied, please try again.
+Permission denied, please try again.
+
 cs18c09@192.168.0.30's password: 
-Permission denied, please try again.
+Permission denied, please try again.
+
 cs18c09@192.168.0.30's password: 
 
 ]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/1702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/1702[00m$ ssh cs18c09@192.168.0.30[11Pcat > abc.txtssh cs18c09@192.168.0.30[1P@192.168.0.30[1P@192.168.0.301@192.168.0.308@192.168.0.30
@@ -30,7 +32,8 @@ Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
 402 packages can be updated.
 0 updates are security updates.
 
-Last login: Mon Feb 17 10:16:59 2020 from 192.168.0.214
+Last login: Mon Feb 17 10:16:59 2020 from 192.168.0.214
+
 $ ^[[A^[[A        ss cp report txtcs   cs^[[D^[[D^[[D                   .txt cs18c18@192.168.0.30:1702
 .
               |
@@ -47,7 +50,8 @@ sent 20 bytes  received 12 bytes  64.00 bytes/sec
 total size is 0  speedup is 0.00
 rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.1]
 $ exit
-Connection to 192.168.0.30 closed.
+Connection to 192.168.0.30 closed.
+
 ]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/1702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/1702[00m$ pdftotext -layout s1.resul[1Presul[C[C[C[C[Ct
 I/O Error: Couldn't open file 's1result': No such file or directory.
 ]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/1702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/1702[00m$ pdftotext -layout s1result[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kssh cs18c18@192.168.0.3009@192.168.0.30[11Pcat > abc.txt[2Pabc.txt> abc.txtssh cs18c09@192.168.0.3018@192.168.0.30[Kssh cs18c18@192.168.0.3009@192.168.0.3018@192.168.0.30[Kssh cs18c18@192.168.0.30[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K/home/s4c1/Downloads/result_CHN (1).pdf\\[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpdftotet[Kxt -layout s1resuly[Kt.pdf
@@ -68,13 +72,17 @@ rsync error: some files/attrs were not transferred (see previous errors) (code 2
  \  \  / (.-' |(  (   )|  |  |(.-'
   `' `'   `--'` `-'`-' '  '  ` `--'
 s4c1@192.168.0.30's password: 
-Permission denied, please try again.
+Permission denied, please try again.
+
 s4c1@192.168.0.30's password: 
-Permission denied, please try again.
+Permission denied, please try again.
+
 s4c1@192.168.0.30's password: 
 
-s4c1@192.168.0.30: Permission denied (publickey,password).
-Connection closed
+s4c1@192.168.0.30: Permission denied (publickey,password).
+
+Connection closed
+
 ]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/1702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/1702[00m$ 
 ]0;s4c1@user-Vostro-3470: ~/ceccs18c18/cs232/1702[01;32ms4c1@user-Vostro-3470[00m:[01;34m~/ceccs18c18/cs232/1702[00m$ sftp 192.168.0.30c192.168.0.30s192.168.0.30[C192.168.0.308192.168.0.30c192.168.0.30[C192.168.0.308192.168.0.30@192.168.0.30[C
 .
@@ -85,18 +93,29 @@ Connection closed
 cs18c18@192.168.0.30's password: 
 Connected to 192.168.0.30.
 sftp> ls
-0702                3101                cs232               examples.desktop    
+0702                3101                cs232               examples.desktop    ￼
+ceccs18c18 Add files via upload
+Latest commit
+eef5351
+in 1 minute
+
 sftp> mkdir 1712[K[K02
 sftp> cd 1702
 sftp> put work.txt
 Uploading work.txt to /home/cs18c18/1702/work.txt
-work.txt                                                                                                      0%    0     0.0KB/s   --:-- ETAwork.txt                                                                                                    100% 8192     2.5MB/s   00:00    
+
+work.txt                                                                                                      0%    0     0.0KB/s   --:-- ETA
+work.txt                                                                                                    100% 8192     2.5MB/s   00:00    
 sftp> put report.txt
 Uploading report.txt to /home/cs18c18/1702/report.txt
-report.txt                                                                                                    0%    0     0.0KB/s   --:-- ETAreport.txt                                                                                                  100%  705   390.3KB/s   00:00    
+
+report.txt                                                                                                    0%    0     0.0KB/s   --:-- ETA
+report.txt                                                                                                  100%  705   390.3KB/s   00:00    
 sftp> put abc.txt
 Uploading abc.txt to /home/cs18c18/1702/abc.txt
-abc.txt                                                                                                       0%    0     0.0KB/s   --:-- ETAabc.txt                                                                                                     100%    6     4.4KB/s   00:00    
+
+abc.txt                                                                                                       0%    0     0.0KB/s   --:-- ETA
+abc.txt                                                                                                     100%    6     4.4KB/s   00:00    
 sftp> ls
 abc.txt     report.txt  work.txt    
 sftp> exit
