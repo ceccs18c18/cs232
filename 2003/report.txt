@@ -1,0 +1,28 @@
+CEC CS 18 C18 
+20-03-2020
+Gopika Pradeep
+
+
+--------------------------------
+#1: Linux Installation (t6)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	# ubuntu installation using CD
+	ubuntu 18.04 LTS
+	
+Output: 
+	
+	# screeshot 1-5 (.jpg) shows various steps of installation
+	
+	# ubuntu 18.04 is installed alongside windows with a partition
+
+-------------------
+Remarks if any:
+	
+	
+
+-------------------------------------
+-------------------------------------
