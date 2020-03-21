@@ -1,0 +1,28 @@
+Script started on Saturday 21 March 2020 01:46:22 PM IST
+]0;guest-p51AT1@user-desktop: ~/cs232guest-p51AT1@user-desktop:~/cs232$ gedit hello.pl
+]0;guest-p51AT1@user-desktop: ~/cs232guest-p51AT1@user-desktop:~/cs232$ gedit hello.pl[C[1P hello.pl[1P hello.pl[1P hello.pl[1P hello.pl[1P hello.plp hello.ple hello.plr hello.pll hello.pl
+Hello
+]0;guest-p51AT1@user-desktop: ~/cs232guest-p51AT1@user-desktop:~/cs232$ perl hello.pl[1@gedit[C[C[C[C[C[C[C[C[C[1P.pl[1P.pl[1P.pl[1P.pl[1P.plm.plu.pll.plt.pli.plp.pll.ply.pl
+]0;guest-p51AT1@user-desktop: ~/cs232guest-p51AT1@user-desktop:~/cs232$ gedit multiply.pl[C[1P multiply.pl[1P multiply.pl[1P multiply.pl[1P multiply.pl[1P multiply.plp multiply.ple multiply.plr multiply.pll multiply.pl
+Enter the numbers
+4
+6
+Product= 10
+]0;guest-p51AT1@user-desktop: ~/cs232guest-p51AT1@user-desktop:~/cs232$ perl multiply.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C
+]0;guest-p51AT1@user-desktop: ~/cs232guest-p51AT1@user-desktop:~/cs232$ gedit multiply.pl[1P multiply.pl[1P multiply.pl[1P multiply.pl[1P multiply.pl[1P multiply.plp multiply.ple multiply.plr multiply.pll multiply.pl
+Enter the numbers
+4
+6
+Product= 24
+]0;guest-p51AT1@user-desktop: ~/cs232guest-p51AT1@user-desktop:~/cs232$ perl multiply.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.plp.pl[C[1P.pl[Cp.plr.pli.plm.ple.pl
+]0;guest-p51AT1@user-desktop: ~/cs232guest-p51AT1@user-desktop:~/cs232$ gedit prime.plperl multiply.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.plp.plr.pli.plm.ple.pl
+Unrecognized character \xE2; marked by <-- HERE after print <-- HERE near column 7 at prime.pl line 1.
+]0;guest-p51AT1@user-desktop: ~/cs232guest-p51AT1@user-desktop:~/cs232$ perl prime.pl[1@gedit[C[C[C[C[C[C[C[C[C
+]0;guest-p51AT1@user-desktop: ~/cs232guest-p51AT1@user-desktop:~/cs232$ gedit prime.pl[1Pperl[C[C[C[C[C[C[C[C[C[1@gedit[C[C[C[C[C[C[C[C[Cperl multiply.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[1Pperl[C[C[C[C[C[C[C[C[C[C[C[C[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.plf.pla.plc.pl
+]0;guest-p51AT1@user-desktop: ~/cs232guest-p51AT1@user-desktop:~/cs232$ gedit fac.plprime.pl[2Pfac.plprime.pl[1Pperl[C[C[C[C[C[C[C[C[C[1@gedit[C[C[C[C[C[C[C[C[Cperl multiply.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.plf.pla.plc.pl
+enter limit 3
+factorial is 6
+]0;guest-p51AT1@user-desktop: ~/cs232guest-p51AT1@user-desktop:~/cs232$ exit
+exit
+
+Script done on Saturday 21 March 2020 01:59:11 PM IST

@@ -1,0 +1,43 @@
+CEC CS 18 C18
+Gopika Pradeep
+--------------------------------
+#1:t8(2) Perl
+---------------------------------
+Program Name:
+----------------------------
+1.Basic program to print "helloworld"
+
+
+2.Program to find the product of two numbers
+
+
+3.Program to find factorial of a number
+
+
+
+
+------------------------------------
+
+#Output
+-------------------------
+1.
+"Hello world"
+
+2.Enter the numbers
+  4
+  6
+  Product= 24
+
+3.enter limit 3
+  factorial is 6  
+
+-------------------------------------
+
+Remarks if any:
+	
+	
+
+-------------------------------------
+-------------------------------------
+
+------------------------------------
