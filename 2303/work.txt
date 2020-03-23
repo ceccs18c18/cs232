@@ -1,0 +1,20 @@
+Script started on Monday 23 March 2020 08:59:03 PM IST
+]0;guest-jZdN1a@user-desktop: ~/2303guest-jZdN1a@user-desktop:~/2303$ gedit s[Khello.pl
+]0;guest-jZdN1a@user-desktop: ~/2303guest-jZdN1a@user-desktop:~/2303$ perl hello.pl
+Hello
+]0;guest-jZdN1a@user-desktop: ~/2303guest-jZdN1a@user-desktop:~/2303$ perl hello.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[1P.pl[1P.pl[1P.pl[1P.pl[1P.pls.plu.plm.pl
+]0;guest-jZdN1a@user-desktop: ~/2303guest-jZdN1a@user-desktop:~/2303$ gedit sum.plperl hello.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pls.plu.plm.pl
+
+Enter a number:45
+Sum of digit=9]0;guest-jZdN1a@user-desktop: ~/2303guest-jZdN1a@user-desktop:~/2303$ perl sum.pl[1@gedit[C[C[C[C[C[C[C[1P.pl[1P.pl[1P.pla.plr.plr.pla.ply.pl
+]0;guest-jZdN1a@user-desktop: ~/2303guest-jZdN1a@user-desktop:~/2303$ gedit array.pl[1P array.pl[1P array.pl[1P array.pl[1P array.pl[1P array.plp array.ple array.plr array.pll array.pl
+2015
+2016
+2017
+One
+Two
+Three
+]0;guest-jZdN1a@user-desktop: ~/2303guest-jZdN1a@user-desktop:~/2303$ exit
+exit
+
+Script done on Monday 23 March 2020 09:01:43 PM IST

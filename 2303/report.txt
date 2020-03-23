@@ -1,0 +1,48 @@
+CEC CS 18 C 18
+GOPIKA PRADEEP
+
+--------------------------------
+#1: Aim/task
+(t8) Further tasks
+    (ii) perl
+
+
+---------------------------------
+Command
+
+
+#Check perl installation
+  perl -v
+#Saving file
+  filename.pl
+#Run the script
+ perl filename.pl
+
+--------------------------------
+
+Output: or Input & Output
+  
+1.Enter a number:57
+  Sum of digit=12
+
+
+2.
+ Hello
+
+
+3. 
+2015
+2016
+2017
+One
+Two
+Three
+
+
+
+-------------------
+Remarks if any:
+
+
+-------------------------------------
+-------------------------------------
