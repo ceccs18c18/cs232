@@ -1,0 +1,59 @@
+CEC CS 18 C 18
+GOPIKA PRADEEP
+
+--------------------------------
+#1: Aim/task
+  (t8) Further tasks
+     1. Package management
+
+---------------------------------
+Command/Shell script/Program name
+
+
+a)#Update local packages
+sudo apt-get update
+
+b)#To install nmap
+sudo apt-get install nmap
+
+c)#To remove nmap
+sudo apt remove nmap
+
+d)#To install tasksel
+sudo apt-get install tasksel
+
+e)#To remove tasksel
+sudo apt remove tasksel
+
+f)#To install apache2 
+sudo apt-get install apache2
+
+g)#To access the same prompts on installation 
+sudo dpkg-reconfigure apache2
+
+h)#To get information about packages installed with apache2
+apt-get install -s apache2
+
+i)#To remove all dependencies,no longer required 
+sudo apt-get autoremove
+
+j)#To list all installed packages 
+sudo apt list > package.txt
+
+
+
+
+
+---------------------------------
+
+Output: or Input & Output (whichever is applicable)
+
+
+#List of installed packages
+     package.txt
+
+-------------------
+Remarks if any:
+
+
+-------------------------------------
