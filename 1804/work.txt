@@ -1,0 +1,222 @@
+Script started on 2020-04-18 15:11:00+0000
+]0;ubuntu@ubuntu: ~/1804[01;32mubuntu@ubuntu[00m:[01;34m~/1804[00m$ gedit sysconfig.sh
+]0;ubuntu@ubuntu: ~/1804[01;32mubuntu@ubuntu[00m:[01;34m~/1804[00m$ bash sysconfig.sh
+
+OS--version ,release number:
+
+NAME="Ubuntu"
+VERSION="18.04.4 LTS (Bionic Beaver)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 18.04.4 LTS"
+VERSION_ID="18.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+
+OS--Kernel version:
+
+5.3.0-28-generic
+
+ All available shell:
+
+# /etc/shells: valid login shells
+/bin/sh
+/bin/bash
+/bin/rbash
+/bin/dash
+
+ CPU information:
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 55
+model name	: Intel(R) Pentium(R) CPU  J2900  @ 2.41GHz
+stepping	: 8
+microcode	: 0x838
+cpu MHz		: 1333.001
+cache size	: 1024 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm sse4_1 sse4_2 movbe popcnt tsc_deadline_timer rdrand lahf_lm 3dnowprefetch epb pti ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid tsc_adjust smep erms dtherm ida arat md_clear
+bugs		: cpu_meltdown spectre_v1 spectre_v2 mds msbds_only
+bogomips	: 4831.40
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 55
+model name	: Intel(R) Pentium(R) CPU  J2900  @ 2.41GHz
+stepping	: 8
+microcode	: 0x838
+cpu MHz		: 1332.893
+cache size	: 1024 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 4
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm sse4_1 sse4_2 movbe popcnt tsc_deadline_timer rdrand lahf_lm 3dnowprefetch epb pti ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid tsc_adjust smep erms dtherm ida arat md_clear
+bugs		: cpu_meltdown spectre_v1 spectre_v2 mds msbds_only
+bogomips	: 4831.40
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 55
+model name	: Intel(R) Pentium(R) CPU  J2900  @ 2.41GHz
+stepping	: 8
+microcode	: 0x838
+cpu MHz		: 1918.942
+cache size	: 1024 KB
+physical id	: 0
+siblings	: 4
+core id		: 2
+cpu cores	: 4
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm sse4_1 sse4_2 movbe popcnt tsc_deadline_timer rdrand lahf_lm 3dnowprefetch epb pti ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid tsc_adjust smep erms dtherm ida arat md_clear
+bugs		: cpu_meltdown spectre_v1 spectre_v2 mds msbds_only
+bogomips	: 4831.40
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 55
+model name	: Intel(R) Pentium(R) CPU  J2900  @ 2.41GHz
+stepping	: 8
+microcode	: 0x838
+cpu MHz		: 1860.652
+cache size	: 1024 KB
+physical id	: 0
+siblings	: 4
+core id		: 3
+cpu cores	: 4
+apicid		: 6
+initial apicid	: 6
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology tsc_reliable nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm sse4_1 sse4_2 movbe popcnt tsc_deadline_timer rdrand lahf_lm 3dnowprefetch epb pti ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid tsc_adjust smep erms dtherm ida arat md_clear
+bugs		: cpu_meltdown spectre_v1 spectre_v2 mds msbds_only
+bogomips	: 4831.40
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+
+  Memory information:
+
+              total        used        free      shared  buff/cache   available
+Mem:           1882         701         114         638        1065         394
+Swap:             0           0           0
+
+  Hard disc information:
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev            917M     0  917M   0% /dev
+tmpfs           189M  1.7M  187M   1% /run
+/dev/sdb1       7.5G  2.0G  5.5G  27% /cdrom
+/dev/loop0      1.9G  1.9G     0 100% /rofs
+/cow            942M  487M  455M  52% /
+tmpfs           942M     0  942M   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           942M     0  942M   0% /sys/fs/cgroup
+tmpfs           942M  500K  941M   1% /tmp
+tmpfs           189M   60K  189M   1% /run/user/999
+/dev/loop1       90M   90M     0 100% /snap/core/8268
+/dev/loop2       55M   55M     0 100% /snap/core18/1668
+/dev/loop3       45M   45M     0 100% /snap/gtk-common-themes/1440
+/dev/loop4      161M  161M     0 100% /snap/gnome-3-28-1804/116
+/dev/loop5      4.3M  4.3M     0 100% /snap/gnome-calculator/544
+/dev/loop6       15M   15M     0 100% /snap/gnome-characters/399
+/dev/loop7      1.0M  1.0M     0 100% /snap/gnome-logs/81
+/dev/loop8      3.8M  3.8M     0 100% /snap/gnome-system-monitor/127
+
+File system (Mounted):
+
+sysfs                                               on  /sys                             type  sysfs            (rw,nosuid,nodev,noexec,relatime)
+proc                                                on  /proc                            type  proc             (rw,nosuid,nodev,noexec,relatime)
+udev                                                on  /dev                             type  devtmpfs         (rw,nosuid,relatime,size=938052k,nr_inodes=234513,mode=755)
+devpts                                              on  /dev/pts                         type  devpts           (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
+tmpfs                                               on  /run                             type  tmpfs            (rw,nosuid,noexec,relatime,size=192728k,mode=755)
+/dev/sdb1                                           on  /cdrom                           type  vfat             (ro,noatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro)
+/dev/loop0                                          on  /rofs                            type  squashfs         (ro,noatime)
+/cow                                                on  /                                type  overlay          (rw,relatime,lowerdir=//filesystem.squashfs,upperdir=/cow/upper,workdir=/cow/work)
+securityfs                                          on  /sys/kernel/security             type  securityfs       (rw,nosuid,nodev,noexec,relatime)
+tmpfs                                               on  /dev/shm                         type  tmpfs            (rw,nosuid,nodev)
+tmpfs                                               on  /run/lock                        type  tmpfs            (rw,nosuid,nodev,noexec,relatime,size=5120k)
+tmpfs                                               on  /sys/fs/cgroup                   type  tmpfs            (ro,nosuid,nodev,noexec,mode=755)
+cgroup                                              on  /sys/fs/cgroup/unified           type  cgroup2          (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+cgroup                                              on  /sys/fs/cgroup/systemd           type  cgroup           (rw,nosuid,nodev,noexec,relatime,xattr,name=systemd)
+pstore                                              on  /sys/fs/pstore                   type  pstore           (rw,nosuid,nodev,noexec,relatime)
+cgroup                                              on  /sys/fs/cgroup/cpu,cpuacct       type  cgroup           (rw,nosuid,nodev,noexec,relatime,cpu,cpuacct)
+cgroup                                              on  /sys/fs/cgroup/perf_event        type  cgroup           (rw,nosuid,nodev,noexec,relatime,perf_event)
+cgroup                                              on  /sys/fs/cgroup/hugetlb           type  cgroup           (rw,nosuid,nodev,noexec,relatime,hugetlb)
+cgroup                                              on  /sys/fs/cgroup/freezer           type  cgroup           (rw,nosuid,nodev,noexec,relatime,freezer)
+cgroup                                              on  /sys/fs/cgroup/memory            type  cgroup           (rw,nosuid,nodev,noexec,relatime,memory)
+cgroup                                              on  /sys/fs/cgroup/cpuset            type  cgroup           (rw,nosuid,nodev,noexec,relatime,cpuset)
+cgroup                                              on  /sys/fs/cgroup/rdma              type  cgroup           (rw,nosuid,nodev,noexec,relatime,rdma)
+cgroup                                              on  /sys/fs/cgroup/devices           type  cgroup           (rw,nosuid,nodev,noexec,relatime,devices)
+cgroup                                              on  /sys/fs/cgroup/pids              type  cgroup           (rw,nosuid,nodev,noexec,relatime,pids)
+cgroup                                              on  /sys/fs/cgroup/net_cls,net_prio  type  cgroup           (rw,nosuid,nodev,noexec,relatime,net_cls,net_prio)
+cgroup                                              on  /sys/fs/cgroup/blkio             type  cgroup           (rw,nosuid,nodev,noexec,relatime,blkio)
+systemd-1                                           on  /proc/sys/fs/binfmt_misc         type  autofs           (rw,relatime,fd=28,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=16826)
+hugetlbfs                                           on  /dev/hugepages                   type  hugetlbfs        (rw,relatime,pagesize=2M)
+mqueue                                              on  /dev/mqueue                      type  mqueue           (rw,relatime)
+debugfs                                             on  /sys/kernel/debug                type  debugfs          (rw,relatime)
+tracefs                                             on  /sys/kernel/debug/tracing        type  tracefs          (rw,relatime)
+configfs                                            on  /sys/kernel/config               type  configfs         (rw,relatime)
+fusectl                                             on  /sys/fs/fuse/connections         type  fusectl          (rw,relatime)
+tmpfs                                               on  /tmp                             type  tmpfs            (rw,nosuid,nodev,relatime)
+tmpfs                                               on  /run/user/999                    type  tmpfs            (rw,nosuid,nodev,relatime,size=192724k,mode=700,uid=999,gid=999)
+gvfsd-fuse                                          on  /run/user/999/gvfs               type  fuse.gvfsd-fuse  (rw,nosuid,nodev,relatime,user_id=999,group_id=999)
+/var/lib/snapd/snaps/core_8268.snap                 on  /snap/core/8268                  type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core18_1668.snap               on  /snap/core18/1668                type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gtk-common-themes_1440.snap    on  /snap/gtk-common-themes/1440     type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-3-28-1804_116.snap       on  /snap/gnome-3-28-1804/116        type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-calculator_544.snap      on  /snap/gnome-calculator/544       type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-characters_399.snap      on  /snap/gnome-characters/399       type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-logs_81.snap             on  /snap/gnome-logs/81              type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-system-monitor_127.snap  on  /snap/gnome-system-monitor/127   type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/dev/fuse                                           on  /home/ubuntu/.cache/doc          type  fuse             (rw,nosuid,nodev,relatime,user_id=0,group_id=0)
+gvfsd-fuse                                          on  /home/ubuntu/.gvfs               type  fuse.gvfsd-fuse  (rw,nosuid,nodev,relatime,user_id=0,group_id=0)
+]0;ubuntu@ubuntu: ~/1804[01;32mubuntu@ubuntu[00m:[01;34m~/1804[00m$ [K]0;ubuntu@ubuntu: ~/1804[01;32mubuntu@ubuntu[00m:[01;34m~/1804[00m$ exit
+exit
+
+Script done on 2020-04-18 15:22:02+0000

@@ -1,0 +1,47 @@
+
+CECCS18C18
+Gopika Pradeep
+
+18-04-2020
+IP addr:137.97.176.133
+
+#Aim/task  #S5
+
+Write shell script to show various system configurations like
+>> your OS and version, release number, kernel version
+>> all available shells
+>> computer CPU information like processor type, speed etc
+>> memory information
+>> hard disk information like size of hard-disk, cache memory, model etc
+>> File system (Mounted)
+---------------------------------
+Command/Shell script/Program name
+
+
+**Shell script - sysconfig.sh
+**Run script  - bash sysconfig.sh
+
+---------------------------------
+
+
+--------------------------------
+Output: or Input & Output 
+
+
+>> your OS and version, release number, kernel version
+>> all available shells
+>> computer CPU information like processor type, speed etc
+>> memory information
+>> hard disk information like size of hard-disk, cache memory, model etc
+>> File system (Mounted)
+
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
