@@ -1,0 +1,126 @@
+Script started on 2020-04-21 09:20:58+0530
+]0;ubuntu@ubuntu: ~/2104[01;32mubuntu@ubuntu[00m:[01;34m~/2104[00m$ ges[Kdit cal.sh
+]0;ubuntu@ubuntu: ~/2104[01;32mubuntu@ubuntu[00m:[01;34m~/2104[00m$ CHMOD[K[K[K[K[Kchmod +x cal.sh
+]0;ubuntu@ubuntu: ~/2104[01;32mubuntu@ubuntu[00m:[01;34m~/2104[00m$ ./cal.sh
+[3J[H[2J1.ADDITION
+2.SUBTRACTION
+3.MULTIPLICATION
+4.DIVISION
+5.MODULUS
+press any key to exit
+choose your option....
+1
+......ADDITION.....
+Enter the first number:
+54
+Enter the second number:
+46
+Answer: 100
+1.ADDITION
+2.SUBTRACTION
+3.MULTIPLICATION
+4.DIVISION
+5.MODULUS
+press any key to exit
+choose your option....
+2
+.....SUBTRACTION......
+Enter the first number:
+32
+Enter the second number:
+5 6
+Answer: 26
+1.ADDITION
+2.SUBTRACTION
+3.MULTIPLICATION
+4.DIVISION
+5.MODULUS
+press any key to exit
+choose your option....
+d
+./cal.sh: line 13: test: d: integer expression expected
+./cal.sh: line 25: test: d: integer expression expected
+./cal.sh: line 35: test: d: integer expression expected
+./cal.sh: line 46: test: d: integer expression expected
+./cal.sh: line 56: test: d: integer expression expected
+./cal.sh: line 67: stop srcipt: command not found
+./cal.sh: line 68: sleep1: command not found
+]0;ubuntu@ubuntu: ~/2104[01;32mubuntu@ubuntu[00m:[01;34m~/2104[00m$ ./cal.sh
+[3J[H[2J1.ADDITION
+2.SUBTRACTION
+3.MULTIPLICATION
+4.DIVISION
+5.MODULUS
+press any key to exit
+choose your option....
+3
+.....MULTIPLICATION......
+Enter first number:
+45
+Enter the second number:
+6
+Answer: 270
+1.ADDITION
+2.SUBTRACTION
+3.MULTIPLICATION
+4.DIVISION
+5.MODULUS
+press any key to exit
+choose your option....
+4
+.....DIVISION......
+Enter the first number:
+85
+Enter the second number:
+28.33333
+./cal.sh: line 53: 85 / 28.33333: syntax error: invalid arithmetic operator (error token is ".33333")
+]0;ubuntu@ubuntu: ~/2104[01;32mubuntu@ubuntu[00m:[01;34m~/2104[00m$ ./cal.sh
+[3J[H[2J1.ADDITION
+2.SUBTRACTION
+3.MULTIPLICATION
+4.DIVISION
+5.MODULUS
+press any key to exit
+choose your option....
+4
+.....DIVISION......
+Enter the first number:
+12
+Enter the second number:
+4
+Answer: 3
+1.ADDITION
+2.SUBTRACTION
+3.MULTIPLICATION
+4.DIVISION
+5.MODULUS
+press any key to exit
+choose your option....
+5
+.....MODULUS......
+Enter the first number:
+76
+Enter the second number:
+78  7
+Answer: 6
+1.ADDITION
+2.SUBTRACTION
+3.MULTIPLICATION
+4.DIVISION
+5.MODULUS
+press any key to exit
+choose your option....
+w
+./cal.sh: line 13: test: w: integer expression expected
+./cal.sh: line 25: test: w: integer expression expected
+./cal.sh: line 35: test: w: integer expression expected
+./cal.sh: line 46: test: w: integer expression expected
+./cal.sh: line 56: test: w: integer expression expected
+./cal.sh: line 67: stop srcipt: command not found
+./cal.sh: line 68: sleep1: command not found
+]0;ubuntu@ubuntu: ~/2104[01;32mubuntu@ubuntu[00m:[01;34m~/2104[00m$ ./cal.shchmod +x cal.sh[3Pgedit[C[C[C[C[C[C[C[3@chmod +x[C[C[C[C[C[C[C[3Pgedit[C[C[C[C[C[C[Cscript work.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[K]0;ubuntu@ubuntu: ~/2104[01;32mubuntu@ubuntu[00m:[01;34m~/2104[00m$ 
+[K]0;ubuntu@ubuntu: ~/2104[01;32mubuntu@ubuntu[00m:[01;34m~/2104[00m$ exit
+exit
+
+Script done on 2020-04-21 09:59:08+0530
