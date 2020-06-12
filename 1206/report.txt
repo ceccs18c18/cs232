@@ -1,0 +1,57 @@
+CEC CS 18 C18
+Gopika Pradeep
+12-06-2020
+--------------
+ IP address
+137.97.140.162
+--------------
+
+--------------------------------
+#1: Aim/task
+
+ t7:  Setting up ftp and http server
+
+------------------------------------------------
+Command/Shell script/Program name
+
+     #To install ftp server:
+      sudo apt-get install vsftpd
+
+     # Checks whether vsftpd is installed
+        dpkg -s vsftpd
+
+     #To edit ftp server configuration:
+      sudo gedit /etc/vsftpd.conf
+  
+     #To connect ftp on local server:
+      ftp localhost
+
+     #To install apache2:
+      sudo apt-get install apache2
+
+     # Checks if apache2 is installed
+      dpkg -s apache2
+
+     #To edit appache2:
+      sudo gedit /var/www/html/index.html
+      
+     # To find ip address
+        hostname -I
+
+     # Connect ftp via ip address
+	ftp 192.168.42.174
+
+---------------------------------
+Output: 
+----------------------------
+             
+        Screenshot1( from 2020-06-12 12-02-39).png : screenshot of webpage(avilable at 192.168.42.174 )
+
+	Screenshot2( from 2020-06-12 12-04-36).png : shows setting up ftp server ,displays details of directories in home directory and the users(when connected to localhost)
+
+
+	
+
+-------------------
+Remarks if any:
+
