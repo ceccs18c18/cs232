@@ -1,0 +1,102 @@
+CEC CS 18 C18
+Gopika Pradeep
+13-06-2020
+--------------
+ IP address
+137.97.98.4
+
+--------------
+--------------------------------
+#1: Aim/task
+
+ t6: Linux Installation   
+
+------------------------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	# ubuntu installation using bootable USB 
+	ubuntu 18.04 LTS
+	
+Output: 
+	
+	# various installation steps are shown in Photos 1-6 (.jpg)
+	
+	# ubuntu 18.04  is installed alongside windows 10
+
+-------------------
+Remarks if any:
+               
+
+          allocated space became corrupted at first attempt
+
+
+
+#2:LAMP stack (t8.3)
+
+----------------------------------------
+
+Command/Shell script/Program name
+------------------------------------------
+	# update local packages
+	sudo apt-get update
+
+	# install apache2
+	sudo apt-get install apache2
+	
+	# starts apache2
+	sudo service apache2 start
+	
+	#install mysql
+	sudo apt-get install mysql-server
+
+	# starts mysql
+	sudo service mysql start
+
+	# accessing mysql( prompts for password)
+	sudo mysql -u root -p
+		
+		// lists databases
+		mysql> show databases;
+		//changes database	
+		mysql> use mysql;
+                
+	# php installation
+	sudo apt install php libapache2-mod-php php-mysql
+
+	# creates php file info
+	sudo nano /var/www/html/info.php
+
+	# creates php file index
+	sudo nano /var/www/html/index.php
+
+
+-----------------------------------------------
+
+Output
+
+-----------------------------------------------
+
+	
+ 	
+	info.png : php version info viewed from localhost/info.php
+ 
+       #info.php 
+        info.jpg
+
+        index.png :php page accessed via 192.168.1.4/index.php
+        
+       #index.php 
+        index.jpg
+
+
+       #Screenshot MySQL.png : mysql commands for creating database,table,inserting rows,displaying fields etc
+
+----------------------------------------------
+Remarks if any:
+
+-----------------------------------------------
+
+--------------------------------
+

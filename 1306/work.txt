@@ -1,0 +1,1571 @@
+Script started on 2020-06-13 10:37:23+0530
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ 
+[K]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ sudo apt update
+[sudo] password for gopika: 
+[33m
+0% [Working][0m
+            
+Get:1 http://in.archive.ubuntu.com/ubuntu bionic InRelease [242 kB]
+[33m
+0% [1 InRelease 1,091 B/242 kB 0%] [Waiting for headers][0m
+                                                        
+Get:2 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+[33m
+0% [1 InRelease 21.5 kB/242 kB 9%] [2 InRelease 978 B/88.7 kB 1%][0m[33m
+0% [1 InRelease 62.2 kB/242 kB 26%] [2 InRelease 12.6 kB/88.7 kB 14%][0m[33m
+0% [1 InRelease 88.0 kB/242 kB 36%] [2 InRelease 38.3 kB/88.7 kB 43%][0m[33m
+                                                                     
+0% [1 InRelease 123 kB/242 kB 51%] [2 InRelease 58.9 kB/88.7 kB 66%][0m[33m
+0% [1 InRelease 157 kB/242 kB 65%] [2 InRelease 71.8 kB/88.7 kB 81%][0m[33m
+                                                                    
+0% [1 InRelease 175 kB/242 kB 72%][0m[33m
+0% [2 InRelease gpgv 88.7 kB] [1 InRelease 175 kB/242 kB 72%][0m[33m
+                                                             
+0% [1 InRelease 208 kB/242 kB 86%][0m[33m
+                                  
+0% [Waiting for headers][0m
+                        
+Get:3 http://security.ubuntu.com/ubuntu bionic-security/main amd64 DEP-11 Metadata [43.8 kB]
+[33m
+0% [Waiting for headers] [3 Components-amd64 1,081 B/43.8 kB 2%][0m[33m
+0% [1 InRelease gpgv 242 kB] [Waiting for headers] [3 Components-amd64 1,081 B/[0m[33m
+                                                                               
+0% [Waiting for headers] [3 Components-amd64 24.3 kB/43.8 kB 55%][0m
+                                                                 
+Get:4 http://in.archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
+[33m
+0% [4 InRelease 1,092 B/88.7 kB 1%] [3 Components-amd64 43.6 kB/43.8 kB 100%][0m[33m
+                                                                             
+0% [4 InRelease 59.5 kB/88.7 kB 67%][0m[33m
+0% [3 Components-amd64 store 0 B] [4 InRelease 60.8 kB/88.7 kB 69%] [Waiting fo[0m[33m
+                                                                               
+0% [4 InRelease 66.3 kB/88.7 kB 75%] [Waiting for headers][0m[33m
+                                                          
+0% [Waiting for headers][0m[33m
+0% [4 InRelease gpgv 88.7 kB] [Waiting for headers] [Waiting for headers][0m
+                                                                         
+Get:5 http://security.ubuntu.com/ubuntu bionic-security/universe amd64 DEP-11 Metadata [49.2 kB]
+[33m
+0% [4 InRelease gpgv 88.7 kB] [Waiting for headers] [5 Components-amd64 2,369 B[0m[33m
+                                                                               
+0% [Waiting for headers] [5 Components-amd64 30.7 kB/49.2 kB 62%][0m[33m
+                                                                 
+0% [Waiting for headers][0m
+                        
+Get:6 http://security.ubuntu.com/ubuntu bionic-security/multiverse amd64 DEP-11 Metadata [2,464 B]
+[33m
+0% [Waiting for headers] [6 Components-amd64 624 B/2,464 B 25%][0m[33m
+0% [5 Components-amd64 store 0 B] [Waiting for headers] [6 Components-amd64 624[0m[33m
+                                                                               
+0% [5 Components-amd64 store 0 B] [Waiting for headers][0m[33m
+                                                       
+0% [Waiting for headers][0m[33m
+0% [6 Components-amd64 store 0 B] [Waiting for headers][0m[33m
+                                                       
+0% [Waiting for headers][0m
+                        
+Get:7 http://in.archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
+[33m
+0% [7 InRelease 1,092 B/74.6 kB 1%][0m[33m
+0% [Working]                                                      92.2 kB/s 47s[0m[33m
+0% [7 InRelease gpgv 74.6 kB]                                     92.2 kB/s 47s[0m[33m
+29% [Waiting for headers]                                         92.2 kB/s 47s[0m
+                                                                               
+Get:8 http://in.archive.ubuntu.com/ubuntu bionic-updates/main i386 Packages [694 kB]
+[33m
+29% [8 Packages 1,091 B/694 kB 0%]                                92.2 kB/s 47s[0m[33m
+30% [8 Packages 62.2 kB/694 kB 9%]                                92.2 kB/s 46s[0m[33m
+31% [8 Packages 115 kB/694 kB 17%]                                92.2 kB/s 45s[0m[33m
+31% [8 Packages 168 kB/694 kB 24%]                                92.2 kB/s 45s[0m[33m
+32% [8 Packages 210 kB/694 kB 30%]                                92.2 kB/s 44s[0m[33m
+33% [8 Packages 256 kB/694 kB 37%]                                92.2 kB/s 44s[0m[33m
+34% [8 Packages 328 kB/694 kB 47%]                                92.2 kB/s 43s[0m[33m
+35% [8 Packages 380 kB/694 kB 55%]                                92.2 kB/s 43s[0m[33m
+36% [8 Packages 440 kB/694 kB 63%]                                92.2 kB/s 42s[0m[33m
+37% [8 Packages 487 kB/694 kB 70%]                                92.2 kB/s 41s[0m[33m
+37% [8 Packages 508 kB/694 kB 73%]                                92.2 kB/s 41s[0m[33m
+37% [8 Packages 508 kB/694 kB 73%]                                92.2 kB/s 41s[0m[33m
+37% [8 Packages 508 kB/694 kB 73%]                                78.4 kB/s 49s[0m[33m
+37% [8 Packages 535 kB/694 kB 77%]                                78.4 kB/s 48s[0m[33m
+39% [8 Packages 615 kB/694 kB 89%]                                78.4 kB/s 47s[0m[33m
+40% [8 Packages 687 kB/694 kB 99%]                                78.4 kB/s 46s[0m[33m
+40% [Working]                                                     78.4 kB/s 46s[0m
+                                                                               
+Get:9 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 Packages [969 kB]
+[33m
+40% [9 Packages 798 B/969 kB 0%]                                  78.4 kB/s 46s[0m[33m
+40% [8 Packages store 0 B] [9 Packages 798 B/969 kB 0%]           78.4 kB/s 46s[0m[33m
+41% [9 Packages 58.6 kB/969 kB 6%]                                78.4 kB/s 45s[0m[33m
+42% [9 Packages 144 kB/969 kB 15%]                                78.4 kB/s 44s[0m[33m
+44% [9 Packages 235 kB/969 kB 24%]                                78.4 kB/s 43s[0m[33m
+45% [9 Packages 302 kB/969 kB 31%]                                78.4 kB/s 42s[0m[33m
+46% [9 Packages 363 kB/969 kB 37%]                                78.4 kB/s 42s[0m[33m
+47% [9 Packages 404 kB/969 kB 42%]                                78.4 kB/s 41s[0m[33m
+47% [9 Packages 406 kB/969 kB 42%]                                78.4 kB/s 41s[0m[33m
+47% [9 Packages 406 kB/969 kB 42%]                                78.4 kB/s 41s[0m[33m
+47% [9 Packages 406 kB/969 kB 42%]                                78.4 kB/s 41s[0m[33m
+48% [9 Packages 473 kB/969 kB 49%]                                 104 kB/s 30s[0m[33m
+49% [9 Packages 552 kB/969 kB 57%]                                 104 kB/s 29s[0m[33m
+50% [9 Packages 636 kB/969 kB 66%]                                 104 kB/s 28s[0m[33m
+51% [9 Packages 671 kB/969 kB 69%]                                 104 kB/s 28s[0m[33m
+51% [9 Packages 671 kB/969 kB 69%]                                 104 kB/s 28s[0m[33m
+51% [9 Packages 671 kB/969 kB 69%]                                 104 kB/s 28s[0m[33m
+51% [9 Packages 671 kB/969 kB 69%]                                 104 kB/s 28s[0m[33m
+52% [9 Packages 738 kB/969 kB 76%]                                 104 kB/s 28s[0m[33m
+53% [9 Packages 795 kB/969 kB 82%]                                 104 kB/s 27s[0m[33m
+54% [9 Packages 894 kB/969 kB 92%]                                 104 kB/s 26s[0m[33m
+55% [9 Packages 958 kB/969 kB 99%]                                 104 kB/s 25s[0m[33m
+56% [Working]                                                      104 kB/s 25s[0m
+                                                                               
+Get:10 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 DEP-11 Metadata [306 kB]
+[33m
+56% [10 Components-amd64 253 B/306 kB 0%]                          104 kB/s 25s[0m[33m
+56% [9 Packages store 0 B] [10 Components-amd64 253 B/306 kB 0%]   104 kB/s 25s[0m[33m
+56% [10 Components-amd64 38.3 kB/306 kB 13%]                       104 kB/s 25s[0m[33m
+57% [10 Components-amd64 99.4 kB/306 kB 32%]                       104 kB/s 24s[0m[33m
+58% [10 Components-amd64 158 kB/306 kB 52%]                        101 kB/s 25s[0m[33m
+59% [10 Components-amd64 211 kB/306 kB 69%]                        101 kB/s 24s[0m[33m
+60% [10 Components-amd64 257 kB/306 kB 84%]                        101 kB/s 24s[0m[33m
+61% [Working]                                                      101 kB/s 23s[0m
+                                                                               
+Get:11 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 Packages [1,081 kB]
+[33m
+61% [11 Packages 869 B/1,081 kB 0%]                                101 kB/s 23s[0m[33m
+                                                                               
+61% [10 Components-amd64 store 0 B] [11 Packages 869 B/1,081 kB 0%][0m[33m
+61% [11 Packages 18.5 kB/1,081 kB 2%]                              101 kB/s 23s[0m[33m
+62% [11 Packages 72.3 kB/1,081 kB 7%]                              101 kB/s 22s[0m[33m
+63% [11 Packages 139 kB/1,081 kB 13%]                              101 kB/s 22s[0m[33m
+64% [11 Packages 196 kB/1,081 kB 18%]                              101 kB/s 21s[0m[33m
+65% [11 Packages 271 kB/1,081 kB 25%]                              101 kB/s 20s[0m[33m
+66% [11 Packages 326 kB/1,081 kB 30%]                              101 kB/s 20s[0m[33m
+67% [11 Packages 368 kB/1,081 kB 34%]                              101 kB/s 19s[0m[33m
+67% [11 Packages 412 kB/1,081 kB 38%]                              101 kB/s 19s[0m[33m
+68% [11 Packages 454 kB/1,081 kB 42%]                              101 kB/s 19s[0m[33m
+69% [11 Packages 489 kB/1,081 kB 45%]                              104 kB/s 18s[0m[33m
+69% [11 Packages 489 kB/1,081 kB 45%]                              104 kB/s 18s[0m[33m
+69% [11 Packages 489 kB/1,081 kB 45%]                              104 kB/s 18s[0m[33m
+72% [11 Packages 660 kB/1,081 kB 61%]                              104 kB/s 16s[0m[33m
+73% [11 Packages 724 kB/1,081 kB 67%]                              104 kB/s 16s[0m[33m
+74% [11 Packages 784 kB/1,081 kB 73%]                              104 kB/s 15s[0m[33m
+74% [11 Packages 829 kB/1,081 kB 77%]                              104 kB/s 15s[0m[33m
+75% [11 Packages 864 kB/1,081 kB 80%]                              104 kB/s 14s[0m[33m
+75% [11 Packages 894 kB/1,081 kB 83%]                              104 kB/s 14s[0m[33m
+75% [11 Packages 894 kB/1,081 kB 83%]                              104 kB/s 14s[0m[33m
+75% [11 Packages 894 kB/1,081 kB 83%]                              104 kB/s 14s[0m[33m
+76% [11 Packages 960 kB/1,081 kB 89%]                              104 kB/s 13s[0m[33m
+78% [Working]                                                      104 kB/s 12s[0m
+                                                                               
+Get:12 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe i386 Packages [1,018 kB]
+[33m
+78% [12 Packages 438 B/1,018 kB 0%]                                104 kB/s 12s[0m[33m
+78% [11 Packages store 0 B] [12 Packages 438 B/1,018 kB 0%]        104 kB/s 12s[0m[33m
+79% [12 Packages 50.4 kB/1,018 kB 5%]                              104 kB/s 12s[0m[33m
+80% [12 Packages 124 kB/1,018 kB 12%]                              104 kB/s 11s[0m[33m
+82% [12 Packages 212 kB/1,018 kB 21%]                              104 kB/s 10s[0m[33m
+83% [12 Packages 295 kB/1,018 kB 29%]                               104 kB/s 9s[0m[33m
+84% [12 Packages 364 kB/1,018 kB 36%]                               104 kB/s 9s[0m[33m
+85% [12 Packages 410 kB/1,018 kB 40%]                               104 kB/s 8s[0m[33m
+86% [12 Packages 441 kB/1,018 kB 43%]                               104 kB/s 8s[0m[33m
+86% [12 Packages 489 kB/1,018 kB 48%]                               104 kB/s 7s[0m[33m
+87% [12 Packages 545 kB/1,018 kB 54%]                               104 kB/s 7s[0m[33m
+88% [12 Packages 594 kB/1,018 kB 58%]                               104 kB/s 6s[0m[33m
+89% [12 Packages 645 kB/1,018 kB 63%]                               104 kB/s 6s[0m[33m
+89% [12 Packages 679 kB/1,018 kB 67%]                               104 kB/s 6s[0m[33m
+90% [12 Packages 725 kB/1,018 kB 71%]                               112 kB/s 5s[0m[33m
+91% [12 Packages 770 kB/1,018 kB 76%]                               112 kB/s 4s[0m[33m
+92% [12 Packages 828 kB/1,018 kB 81%]                               112 kB/s 4s[0m[33m
+93% [12 Packages 902 kB/1,018 kB 89%]                               112 kB/s 3s[0m[33m
+94% [12 Packages 951 kB/1,018 kB 93%]                               112 kB/s 3s[0m[33m
+94% [12 Packages 994 kB/1,018 kB 98%]                               112 kB/s 2s[0m[33m
+95% [Working]                                                       112 kB/s 2s[0m
+                                                                               
+Get:13 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 DEP-11 Metadata [279 kB]
+[33m
+95% [13 Components-amd64 359 B/279 kB 0%]                           112 kB/s 2s[0m[33m
+95% [12 Packages store 0 B] [13 Components-amd64 359 B/279 kB 0%]   112 kB/s 2s[0m[33m
+96% [13 Components-amd64 34.3 kB/279 kB 12%]                        112 kB/s 2s[0m[33m
+96% [13 Components-amd64 38.4 kB/279 kB 14%]                        112 kB/s 2s[0m[33m
+96% [13 Components-amd64 38.4 kB/279 kB 14%]                        112 kB/s 2s[0m[33m
+96% [13 Components-amd64 47.8 kB/279 kB 17%]                        112 kB/s 2s[0m[33m
+99% [Working]                                                       112 kB/s 0s[0m
+                                                                               
+Get:14 http://in.archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 DEP-11 Metadata [2,468 B]
+[33m
+100% [14 Components-amd64 761 B/2,468 B 31%]                        112 kB/s 0s[0m[33m
+                                                                               
+100% [13 Components-amd64 store 0 B] [14 Components-amd64 761 B/2,468 B 31%][0m[33m
+100% [13 Components-amd64 store 0 B]                                112 kB/s 0s[0m
+                                                                               
+Get:15 http://in.archive.ubuntu.com/ubuntu bionic-backports/universe amd64 DEP-11 Metadata [7,968 B]
+[33m
+                                                                               
+100% [13 Components-amd64 store 0 B] [15 Components-amd64 0 B/7,968 B 0%][0m[33m
+100% [13 Components-amd64 store 0 B]                                112 kB/s 0s[0m[33m
+100% [Working]                                                      112 kB/s 0s[0m[33m
+100% [14 Components-amd64 store 0 B]                                112 kB/s 0s[0m[33m
+100% [Working]                                                      112 kB/s 0s[0m[33m
+100% [15 Components-amd64 store 0 B]                                112 kB/s 0s[0m[33m
+100% [Working]                                                      112 kB/s 0s[0m
+                                                                               
+Fetched 4,947 kB in 49s (101 kB/s)
+ 
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 2%
+
+Reading package lists... 2%
+
+Reading package lists... 5%
+
+Reading package lists... 5%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 13%
+
+Reading package lists... 24%
+
+Reading package lists... 31%
+
+Reading package lists... 31%
+
+Reading package lists... 35%
+
+Reading package lists... 53%
+
+Reading package lists... 55%
+
+Reading package lists... 55%
+
+Reading package lists... 68%
+
+Reading package lists... 68%
+
+Reading package lists... 68%
+
+Reading package lists... 68%
+
+Reading package lists... 68%
+
+Reading package lists... 68%
+
+Reading package lists... 69%
+
+Reading package lists... 69%
+
+Reading package lists... 72%
+
+Reading package lists... 72%
+
+Reading package lists... 74%
+
+Reading package lists... 74%
+
+Reading package lists... 74%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 89%
+
+Reading package lists... 89%
+
+Reading package lists... 91%
+
+Reading package lists... 91%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+217 packages can be upgraded. Run 'apt list --upgradable' to see them.
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$  
+[K]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$  sudo apt update- updateg updatee updatet update
+
+0% [Working]
+0% [Connecting to in.archive.ubuntu.com] [Waiting for headers]
+                                                              
+Hit:1 http://security.ubuntu.com/ubuntu bionic-security InRelease
+
+                                                              
+0% [Waiting for headers]
+                        
+Get:2 http://in.archive.ubuntu.com/ubuntu bionic InRelease [242 kB]
+
+0% [2 InRelease 1,091 B/242 kB 0%]
+0% [1 InRelease gpgv 88.7 kB] [2 InRelease 1,091 B/242 kB 0%]
+0% [1 InRelease gpgv 88.7 kB] [2 InRelease 66.3 kB/242 kB 27%]
+                                                              
+0% [2 InRelease 74.4 kB/242 kB 31%]
+                                   
+0% [2 InRelease 142 kB/242 kB 59%]
+0% [2 InRelease 198 kB/242 kB 82%]
+                                  
+0% [Working]
+0% [2 InRelease gpgv 242 kB] [Waiting for headers]
+                                                  
+Hit:3 http://in.archive.ubuntu.com/ubuntu bionic-updates InRelease
+
+0% [2 InRelease gpgv 242 kB] [Waiting for headers]
+                                                  
+Hit:4 http://in.archive.ubuntu.com/ubuntu bionic-backports InRelease
+
+                                                  
+0% [2 InRelease gpgv 242 kB]
+                            
+0% [Working]
+0% [3 InRelease gpgv 88.7 kB]
+                             
+0% [Working]
+0% [4 InRelease gpgv 74.6 kB]
+                             
+100% [Working]
+              
+Fetched 242 kB in 4s (66.5 kB/s)
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 2%
+
+Reading package lists... 2%
+
+Reading package lists... 5%
+
+Reading package lists... 5%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 13%
+
+Reading package lists... 25%
+
+Reading package lists... 31%
+
+Reading package lists... 31%
+
+Reading package lists... 36%
+
+Reading package lists... 40%
+
+Reading package lists... 52%
+
+Reading package lists... 55%
+
+Reading package lists... 55%
+
+Reading package lists... 68%
+
+Reading package lists... 68%
+
+Reading package lists... 68%
+
+Reading package lists... 68%
+
+Reading package lists... 68%
+
+Reading package lists... 68%
+
+Reading package lists... 68%
+
+Reading package lists... 69%
+
+Reading package lists... 69%
+
+Reading package lists... 72%
+
+Reading package lists... 72%
+
+Reading package lists... 72%
+
+Reading package lists... 74%
+
+Reading package lists... 74%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 83%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 89%
+
+Reading package lists... 89%
+
+Reading package lists... 91%
+
+Reading package lists... 91%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ sudo apt-get install apache2
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+apache2 is already the newest version (2.4.29-1ubuntu4.13).
+0 upgraded, 0 newly installed, 0 to remove and 217 not upgraded.
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ sudo service apache2 start
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$   sudo apt-get install MySQL-server[1P[1P
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+E: Unable to locate package MySQL-server
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ sudo apt-get install MySQL-server[C[1P-server[1P-server[1P-server[1P-server[1P-serverm-servery-servers-serverq-serverl-server
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following additional packages will be installed:
+  libaio1 libevent-core-2.1-6 libhtml-template-perl mysql-client-5.7
+  mysql-client-core-5.7 mysql-common mysql-server-5.7 mysql-server-core-5.7
+Suggested packages:
+  libipc-sharedcache-perl mailx tinyca
+The following NEW packages will be installed:
+  libaio1 libevent-core-2.1-6 libhtml-template-perl mysql-client-5.7
+  mysql-client-core-5.7 mysql-common mysql-server mysql-server-5.7
+  mysql-server-core-5.7
+0 upgraded, 9 newly installed, 0 to remove and 217 not upgraded.
+Need to get 19.1 MB of archives.
+After this operation, 155 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+
+0% [Working]
+            
+Get:1 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 mysql-common all 5.8+1.0.4 [7,308 B]
+
+0% [1 mysql-common 1,094 B/7,308 B 15%]
+                                       
+2% [Working]
+            
+Get:2 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libaio1 amd64 0.3.110-5ubuntu0.1 [6,476 B]
+
+2% [2 libaio1 1,094 B/6,476 B 17%]
+                                  
+5% [Working]
+            
+Get:3 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 mysql-client-core-5.7 amd64 5.7.30-0ubuntu0.18.04.1 [6,649 kB]
+
+5% [3 mysql-client-core-5.7 1,139 B/6,649 kB 0%]
+5% [3 mysql-client-core-5.7 86.7 kB/6,649 kB 1%]
+                                                
+5% [3 mysql-client-core-5.7 171 kB/6,649 kB 3%]
+6% [3 mysql-client-core-5.7 242 kB/6,649 kB 4%]
+6% [3 mysql-client-core-5.7 293 kB/6,649 kB 4%]
+6% [3 mysql-client-core-5.7 357 kB/6,649 kB 5%]
+6% [3 mysql-client-core-5.7 448 kB/6,649 kB 7%]
+7% [3 mysql-client-core-5.7 543 kB/6,649 kB 8%]
+7% [3 mysql-client-core-5.7 639 kB/6,649 kB 10%]
+8% [3 mysql-client-core-5.7 759 kB/6,649 kB 11%]
+8% [3 mysql-client-core-5.7 873 kB/6,649 kB 13%]
+9% [3 mysql-client-core-5.7 1,017 kB/6,649 kB 15%]            168 kB/s 1min 47s
+9% [3 mysql-client-core-5.7 1,123 kB/6,649 kB 17%]            168 kB/s 1min 47s
+10% [3 mysql-client-core-5.7 1,229 kB/6,649 kB 18%]           168 kB/s 1min 46s
+10% [3 mysql-client-core-5.7 1,308 kB/6,649 kB 20%]           168 kB/s 1min 46s
+10% [3 mysql-client-core-5.7 1,392 kB/6,649 kB 21%]           168 kB/s 1min 45s
+11% [3 mysql-client-core-5.7 1,547 kB/6,649 kB 23%]           168 kB/s 1min 44s
+12% [3 mysql-client-core-5.7 1,696 kB/6,649 kB 26%]           168 kB/s 1min 43s
+12% [3 mysql-client-core-5.7 1,817 kB/6,649 kB 27%]           168 kB/s 1min 43s
+13% [3 mysql-client-core-5.7 1,972 kB/6,649 kB 30%]           168 kB/s 1min 42s
+13% [3 mysql-client-core-5.7 2,052 kB/6,649 kB 31%]                                                                         168 kB/s 1min 41s
+13% [3 mysql-client-core-5.7 2,135 kB/6,649 kB 32%]                                                                         168 kB/s 1min 41s
+13% [3 mysql-client-core-5.7 2,140 kB/6,649 kB 32%]                                                                         168 kB/s 1min 41s
+13% [3 mysql-client-core-5.7 2,140 kB/6,649 kB 32%]                                                                         187 kB/s 1min 30s
+13% [3 mysql-client-core-5.7 2,140 kB/6,649 kB 32%]                                                                         187 kB/s 1min 30s
+16% [3 mysql-client-core-5.7 2,644 kB/6,649 kB 40%]                                                                         187 kB/s 1min 28s
+16% [3 mysql-client-core-5.7 2,750 kB/6,649 kB 41%]                                                                         187 kB/s 1min 27s
+16% [3 mysql-client-core-5.7 2,861 kB/6,649 kB 43%]                                                                         187 kB/s 1min 26s
+17% [3 mysql-client-core-5.7 2,970 kB/6,649 kB 45%]                                                                         187 kB/s 1min 26s
+17% [3 mysql-client-core-5.7 3,085 kB/6,649 kB 46%]                                                                         187 kB/s 1min 25s
+18% [3 mysql-client-core-5.7 3,139 kB/6,649 kB 47%]                                                                         187 kB/s 1min 25s
+18% [3 mysql-client-core-5.7 3,139 kB/6,649 kB 47%]                                                                         187 kB/s 1min 25s
+18% [3 mysql-client-core-5.7 3,139 kB/6,649 kB 47%]                                                                         187 kB/s 1min 25s
+18% [3 mysql-client-core-5.7 3,187 kB/6,649 kB 48%]                                                                         187 kB/s 1min 25s
+19% [3 mysql-client-core-5.7 3,362 kB/6,649 kB 51%]                                                                         187 kB/s 1min 24s
+20% [3 mysql-client-core-5.7 3,616 kB/6,649 kB 54%]                                                                          246 kB/s 1min 3s
+20% [3 mysql-client-core-5.7 3,740 kB/6,649 kB 56%]                                                                          246 kB/s 1min 2s
+21% [3 mysql-client-core-5.7 3,854 kB/6,649 kB 58%]                                                                          246 kB/s 1min 2s
+21% [3 mysql-client-core-5.7 3,952 kB/6,649 kB 59%]                                                                          246 kB/s 1min 1s
+21% [3 mysql-client-core-5.7 4,056 kB/6,649 kB 61%]                                                                          246 kB/s 1min 1s
+22% [3 mysql-client-core-5.7 4,178 kB/6,649 kB 63%]                                                                              246 kB/s 60s
+22% [3 mysql-client-core-5.7 4,279 kB/6,649 kB 64%]                                                                              246 kB/s 60s
+23% [3 mysql-client-core-5.7 4,464 kB/6,649 kB 67%]                                                                              246 kB/s 59s
+24% [3 mysql-client-core-5.7 4,610 kB/6,649 kB 69%]                                                                              246 kB/s 59s
+24% [3 mysql-client-core-5.7 4,694 kB/6,649 kB 71%]                                                                              246 kB/s 58s
+24% [3 mysql-client-core-5.7 4,762 kB/6,649 kB 72%]                                                                              246 kB/s 58s
+24% [3 mysql-client-core-5.7 4,768 kB/6,649 kB 72%]                                                                              246 kB/s 58s
+24% [3 mysql-client-core-5.7 4,768 kB/6,649 kB 72%]                                                                         192 kB/s 1min 14s
+25% [3 mysql-client-core-5.7 4,799 kB/6,649 kB 72%]                                                                         192 kB/s 1min 14s
+25% [3 mysql-client-core-5.7 4,935 kB/6,649 kB 74%]                                                                         192 kB/s 1min 13s
+26% [3 mysql-client-core-5.7 5,171 kB/6,649 kB 78%]                                                                         192 kB/s 1min 12s
+26% [3 mysql-client-core-5.7 5,240 kB/6,649 kB 79%]                                                                         192 kB/s 1min 12s
+27% [3 mysql-client-core-5.7 5,266 kB/6,649 kB 79%]                                                                         192 kB/s 1min 12s
+27% [3 mysql-client-core-5.7 5,266 kB/6,649 kB 79%]                                                                         192 kB/s 1min 12s
+27% [3 mysql-client-core-5.7 5,266 kB/6,649 kB 79%]                                                                         192 kB/s 1min 12s
+27% [3 mysql-client-core-5.7 5,278 kB/6,649 kB 79%]                                                                         192 kB/s 1min 12s
+27% [3 mysql-client-core-5.7 5,344 kB/6,649 kB 80%]                                                                         192 kB/s 1min 11s
+27% [3 mysql-client-core-5.7 5,421 kB/6,649 kB 82%]                                                                         192 kB/s 1min 11s
+28% [3 mysql-client-core-5.7 5,530 kB/6,649 kB 83%]                                                                         192 kB/s 1min 10s
+28% [3 mysql-client-core-5.7 5,597 kB/6,649 kB 84%]                                                                         138 kB/s 1min 37s
+28% [3 mysql-client-core-5.7 5,653 kB/6,649 kB 85%]                                                                         138 kB/s 1min 37s
+28% [3 mysql-client-core-5.7 5,709 kB/6,649 kB 86%]                                                                         138 kB/s 1min 37s
+29% [3 mysql-client-core-5.7 5,739 kB/6,649 kB 86%]                                                                         138 kB/s 1min 36s
+29% [3 mysql-client-core-5.7 5,739 kB/6,649 kB 86%]                                                                         138 kB/s 1min 36s
+29% [3 mysql-client-core-5.7 5,739 kB/6,649 kB 86%]                                                                         138 kB/s 1min 36s
+29% [3 mysql-client-core-5.7 5,766 kB/6,649 kB 87%]                                                                         138 kB/s 1min 36s
+29% [3 mysql-client-core-5.7 5,885 kB/6,649 kB 89%]                                                                         138 kB/s 1min 35s
+30% [3 mysql-client-core-5.7 6,090 kB/6,649 kB 92%]                                                                         138 kB/s 1min 34s
+30% [3 mysql-client-core-5.7 6,191 kB/6,649 kB 93%]                                                                         138 kB/s 1min 33s
+31% [3 mysql-client-core-5.7 6,286 kB/6,649 kB 95%]                                                                         138 kB/s 1min 32s
+31% [3 mysql-client-core-5.7 6,358 kB/6,649 kB 96%]                                                                         138 kB/s 1min 32s
+31% [3 mysql-client-core-5.7 6,411 kB/6,649 kB 96%]                                                                         135 kB/s 1min 33s
+32% [3 mysql-client-core-5.7 6,477 kB/6,649 kB 97%]                                                                         135 kB/s 1min 33s
+32% [3 mysql-client-core-5.7 6,552 kB/6,649 kB 99%]                                                                         135 kB/s 1min 32s
+35% [Working]                                                                                                               135 kB/s 1min 32s
+                                                                                                                                             
+Get:4 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 mysql-client-5.7 amd64 5.7.30-0ubuntu0.18.04.1 [1,945 kB]
+
+35% [4 mysql-client-5.7 3,014 B/1,945 kB 0%]                                                                                135 kB/s 1min 32s
+35% [4 mysql-client-5.7 122 kB/1,945 kB 6%]                                                                                 135 kB/s 1min 31s
+36% [4 mysql-client-5.7 257 kB/1,945 kB 13%]                                                                                135 kB/s 1min 30s
+36% [4 mysql-client-5.7 338 kB/1,945 kB 17%]                                                                                135 kB/s 1min 29s
+37% [4 mysql-client-5.7 512 kB/1,945 kB 26%]                                                                                135 kB/s 1min 28s
+38% [4 mysql-client-5.7 731 kB/1,945 kB 38%]                                                                                135 kB/s 1min 26s
+38% [4 mysql-client-5.7 922 kB/1,945 kB 47%]                                                                                135 kB/s 1min 25s
+39% [4 mysql-client-5.7 1,032 kB/1,945 kB 53%]                                                                              135 kB/s 1min 24s
+39% [4 mysql-client-5.7 1,152 kB/1,945 kB 59%]                                                                              135 kB/s 1min 23s
+40% [4 mysql-client-5.7 1,265 kB/1,945 kB 65%]                                                                              135 kB/s 1min 22s
+40% [4 mysql-client-5.7 1,349 kB/1,945 kB 69%]                                                                                   246 kB/s 45s
+41% [4 mysql-client-5.7 1,472 kB/1,945 kB 76%]                                                                                   246 kB/s 44s
+41% [4 mysql-client-5.7 1,544 kB/1,945 kB 79%]                                                                                   246 kB/s 44s
+41% [4 mysql-client-5.7 1,614 kB/1,945 kB 83%]                                                                                   246 kB/s 44s
+42% [4 mysql-client-5.7 1,711 kB/1,945 kB 88%]                                                                                   246 kB/s 43s
+42% [4 mysql-client-5.7 1,771 kB/1,945 kB 91%]                                                                                   246 kB/s 43s
+42% [4 mysql-client-5.7 1,783 kB/1,945 kB 92%]                                                                                   246 kB/s 43s
+42% [4 mysql-client-5.7 1,783 kB/1,945 kB 92%]                                                                                   246 kB/s 43s
+42% [4 mysql-client-5.7 1,783 kB/1,945 kB 92%]                                                                                   246 kB/s 43s
+42% [4 mysql-client-5.7 1,885 kB/1,945 kB 97%]                                                                                   246 kB/s 43s
+45% [Working]                                                                                                                    246 kB/s 42s
+                                                                                                                                             
+Get:5 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 mysql-server-core-5.7 amd64 5.7.30-0ubuntu0.18.04.1 [7,437 kB]
+
+45% [5 mysql-server-core-5.7 685 B/7,437 kB 0%]                                                                                  246 kB/s 42s
+46% [5 mysql-server-core-5.7 204 kB/7,437 kB 3%]                                                                                 246 kB/s 41s
+46% [5 mysql-server-core-5.7 258 kB/7,437 kB 3%]                                                                                 246 kB/s 41s
+46% [5 mysql-server-core-5.7 333 kB/7,437 kB 4%]                                                                             148 kB/s 1min 8s
+46% [5 mysql-server-core-5.7 341 kB/7,437 kB 5%]                                                                             148 kB/s 1min 8s
+46% [5 mysql-server-core-5.7 341 kB/7,437 kB 5%]                                                                             148 kB/s 1min 8s
+46% [5 mysql-server-core-5.7 341 kB/7,437 kB 5%]                                                                             148 kB/s 1min 8s
+46% [5 mysql-server-core-5.7 341 kB/7,437 kB 5%]                                                                             148 kB/s 1min 8s
+46% [5 mysql-server-core-5.7 341 kB/7,437 kB 5%]                                                                             148 kB/s 1min 8s
+48% [5 mysql-server-core-5.7 773 kB/7,437 kB 10%]                                                                            148 kB/s 1min 5s
+48% [5 mysql-server-core-5.7 834 kB/7,437 kB 11%]                                                                            148 kB/s 1min 5s
+49% [5 mysql-server-core-5.7 912 kB/7,437 kB 12%]                                                                            148 kB/s 1min 4s
+49% [5 mysql-server-core-5.7 994 kB/7,437 kB 13%]                                                                            148 kB/s 1min 4s
+49% [5 mysql-server-core-5.7 1,081 kB/7,437 kB 15%]                                                                          148 kB/s 1min 3s
+50% [5 mysql-server-core-5.7 1,191 kB/7,437 kB 16%]                                                                          148 kB/s 1min 2s
+50% [5 mysql-server-core-5.7 1,278 kB/7,437 kB 17%]                                                                              157 kB/s 58s
+51% [5 mysql-server-core-5.7 1,361 kB/7,437 kB 18%]                                                                              157 kB/s 58s
+51% [5 mysql-server-core-5.7 1,443 kB/7,437 kB 19%]                                                                              157 kB/s 57s
+51% [5 mysql-server-core-5.7 1,528 kB/7,437 kB 21%]                                                                              157 kB/s 57s
+52% [5 mysql-server-core-5.7 1,603 kB/7,437 kB 22%]                                                                              157 kB/s 56s
+52% [5 mysql-server-core-5.7 1,684 kB/7,437 kB 23%]                                                                              157 kB/s 56s
+52% [5 mysql-server-core-5.7 1,766 kB/7,437 kB 24%]                                                                              157 kB/s 55s
+53% [5 mysql-server-core-5.7 2,002 kB/7,437 kB 27%]                                                                              157 kB/s 54s
+54% [5 mysql-server-core-5.7 2,165 kB/7,437 kB 29%]                                                                              157 kB/s 53s
+55% [5 mysql-server-core-5.7 2,298 kB/7,437 kB 31%]                                                                              157 kB/s 52s
+55% [5 mysql-server-core-5.7 2,466 kB/7,437 kB 33%]                                                                              157 kB/s 51s
+56% [5 mysql-server-core-5.7 2,665 kB/7,437 kB 36%]                                                                              157 kB/s 49s
+57% [5 mysql-server-core-5.7 2,871 kB/7,437 kB 39%]                                                                              265 kB/s 28s
+58% [5 mysql-server-core-5.7 3,056 kB/7,437 kB 41%]                                                                              265 kB/s 28s
+58% [5 mysql-server-core-5.7 3,179 kB/7,437 kB 43%]                                                                              265 kB/s 27s
+59% [5 mysql-server-core-5.7 3,274 kB/7,437 kB 44%]                                                                              265 kB/s 27s
+59% [5 mysql-server-core-5.7 3,365 kB/7,437 kB 45%]                                                                              265 kB/s 26s
+59% [5 mysql-server-core-5.7 3,447 kB/7,437 kB 46%]                                                                              265 kB/s 26s
+60% [5 mysql-server-core-5.7 3,501 kB/7,437 kB 47%]                                                                              265 kB/s 26s
+60% [5 mysql-server-core-5.7 3,501 kB/7,437 kB 47%]                                                                              265 kB/s 26s
+60% [5 mysql-server-core-5.7 3,501 kB/7,437 kB 47%]                                                                              265 kB/s 26s
+60% [5 mysql-server-core-5.7 3,560 kB/7,437 kB 48%]                                                                              265 kB/s 26s
+62% [5 mysql-server-core-5.7 4,006 kB/7,437 kB 54%]                                                                              265 kB/s 24s
+62% [5 mysql-server-core-5.7 4,167 kB/7,437 kB 56%]                                                                              265 kB/s 23s
+63% [5 mysql-server-core-5.7 4,381 kB/7,437 kB 59%]                                                                              251 kB/s 24s
+64% [5 mysql-server-core-5.7 4,582 kB/7,437 kB 62%]                                                                              251 kB/s 23s
+65% [5 mysql-server-core-5.7 4,776 kB/7,437 kB 64%]                                                                              251 kB/s 22s
+66% [5 mysql-server-core-5.7 4,984 kB/7,437 kB 67%]                                                                              251 kB/s 22s
+67% [5 mysql-server-core-5.7 5,189 kB/7,437 kB 70%]                                                                              251 kB/s 21s
+67% [5 mysql-server-core-5.7 5,333 kB/7,437 kB 72%]                                                                              251 kB/s 20s
+68% [5 mysql-server-core-5.7 5,483 kB/7,437 kB 74%]                                                                              251 kB/s 20s
+68% [5 mysql-server-core-5.7 5,574 kB/7,437 kB 75%]                                                                              251 kB/s 19s
+68% [5 mysql-server-core-5.7 5,574 kB/7,437 kB 75%]                                                                              251 kB/s 19s
+68% [5 mysql-server-core-5.7 5,574 kB/7,437 kB 75%]                                                                              251 kB/s 19s
+70% [5 mysql-server-core-5.7 6,102 kB/7,437 kB 82%]                                                                              251 kB/s 17s
+71% [5 mysql-server-core-5.7 6,183 kB/7,437 kB 83%]                                                                              251 kB/s 17s
+71% [5 mysql-server-core-5.7 6,238 kB/7,437 kB 84%]                                                                              309 kB/s 13s
+72% [5 mysql-server-core-5.7 6,367 kB/7,437 kB 86%]                                                                              309 kB/s 13s
+72% [5 mysql-server-core-5.7 6,509 kB/7,437 kB 88%]                                                                              309 kB/s 12s
+73% [5 mysql-server-core-5.7 6,756 kB/7,437 kB 91%]                                                                              309 kB/s 12s
+74% [5 mysql-server-core-5.7 7,027 kB/7,437 kB 94%]                                                                              309 kB/s 11s
+75% [5 mysql-server-core-5.7 7,302 kB/7,437 kB 98%]                                                                              309 kB/s 10s
+78% [Working]                                                                                                                     309 kB/s 9s
+                                                                                                                                             
+Get:6 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libevent-core-2.1-6 amd64 2.1.8-stable-4build1 [85.9 kB]
+
+78% [6 libevent-core-2.1-6 9,368 B/85.9 kB 11%]                                                                                   309 kB/s 9s
+81% [Working]                                                                                                                     309 kB/s 9s
+                                                                                                                                             
+Get:7 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 mysql-server-5.7 amd64 5.7.30-0ubuntu0.18.04.1 [2,929 kB]
+
+81% [7 mysql-server-5.7 2,381 B/2,929 kB 0%]                                                                                      309 kB/s 9s
+82% [7 mysql-server-5.7 169 kB/2,929 kB 6%]                                                                                       309 kB/s 9s
+82% [7 mysql-server-5.7 319 kB/2,929 kB 11%]                                                                                      309 kB/s 8s
+83% [7 mysql-server-5.7 467 kB/2,929 kB 16%]                                                                                      309 kB/s 8s
+83% [7 mysql-server-5.7 620 kB/2,929 kB 21%]                                                                                      309 kB/s 7s
+84% [7 mysql-server-5.7 770 kB/2,929 kB 26%]                                                                                      309 kB/s 7s
+85% [7 mysql-server-5.7 926 kB/2,929 kB 32%]                                                                                      364 kB/s 5s
+85% [7 mysql-server-5.7 1,083 kB/2,929 kB 37%]                                                                                    364 kB/s 5s
+86% [7 mysql-server-5.7 1,221 kB/2,929 kB 42%]                                                                                    364 kB/s 4s
+86% [7 mysql-server-5.7 1,333 kB/2,929 kB 46%]                                                                                    364 kB/s 4s
+87% [7 mysql-server-5.7 1,438 kB/2,929 kB 49%]                                                                                    364 kB/s 4s
+87% [7 mysql-server-5.7 1,519 kB/2,929 kB 52%]                                                                                    364 kB/s 4s
+87% [7 mysql-server-5.7 1,519 kB/2,929 kB 52%]                                                                                    364 kB/s 4s
+87% [7 mysql-server-5.7 1,519 kB/2,929 kB 52%]                                                                                    364 kB/s 4s
+87% [7 mysql-server-5.7 1,519 kB/2,929 kB 52%]                                                                                    364 kB/s 4s
+88% [7 mysql-server-5.7 1,775 kB/2,929 kB 61%]                                                                                    364 kB/s 3s
+90% [7 mysql-server-5.7 2,107 kB/2,929 kB 72%]                                                                                    364 kB/s 2s
+90% [7 mysql-server-5.7 2,236 kB/2,929 kB 76%]                                                                                    364 kB/s 2s
+91% [7 mysql-server-5.7 2,369 kB/2,929 kB 81%]                                                                                    240 kB/s 2s
+91% [7 mysql-server-5.7 2,542 kB/2,929 kB 87%]                                                                                    240 kB/s 1s
+92% [7 mysql-server-5.7 2,655 kB/2,929 kB 91%]                                                                                    240 kB/s 1s
+92% [7 mysql-server-5.7 2,784 kB/2,929 kB 95%]                                                                                    240 kB/s 0s
+93% [7 mysql-server-5.7 2,903 kB/2,929 kB 99%]                                                                                    240 kB/s 0s
+95% [Working]                                                                                                                     240 kB/s 0s
+                                                                                                                                             
+Get:8 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libhtml-template-perl all 2.97-1 [59.0 kB]
+
+95% [8 libhtml-template-perl 728 B/59.0 kB 1%]                                                                                    240 kB/s 0s
+98% [Working]                                                                                                                     240 kB/s 0s
+                                                                                                                                             
+Get:9 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 mysql-server all 5.7.30-0ubuntu0.18.04.1 [9,948 B]
+
+98% [9 mysql-server 2,008 B/9,948 B 20%]                                                                                          240 kB/s 0s
+100% [Working]                                                                                                                    240 kB/s 0s
+                                                                                                                                             
+Fetched 19.1 MB in 1min 27s (219 kB/s)
+Preconfiguring packages ...
+Selecting previously unselected package mysql-common.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 127821 files and directories currently installed.)
+Preparing to unpack .../0-mysql-common_5.8+1.0.4_all.deb ...
+Unpacking mysql-common (5.8+1.0.4) ...
+Selecting previously unselected package libaio1:amd64.
+Preparing to unpack .../1-libaio1_0.3.110-5ubuntu0.1_amd64.deb ...
+Unpacking libaio1:amd64 (0.3.110-5ubuntu0.1) ...
+Selecting previously unselected package mysql-client-core-5.7.
+Preparing to unpack .../2-mysql-client-core-5.7_5.7.30-0ubuntu0.18.04.1_amd64.deb ...
+Unpacking mysql-client-core-5.7 (5.7.30-0ubuntu0.18.04.1) ...
+Selecting previously unselected package mysql-client-5.7.
+Preparing to unpack .../3-mysql-client-5.7_5.7.30-0ubuntu0.18.04.1_amd64.deb ...
+Unpacking mysql-client-5.7 (5.7.30-0ubuntu0.18.04.1) ...
+Selecting previously unselected package mysql-server-core-5.7.
+Preparing to unpack .../4-mysql-server-core-5.7_5.7.30-0ubuntu0.18.04.1_amd64.deb ...
+Unpacking mysql-server-core-5.7 (5.7.30-0ubuntu0.18.04.1) ...
+Selecting previously unselected package libevent-core-2.1-6:amd64.
+Preparing to unpack .../5-libevent-core-2.1-6_2.1.8-stable-4build1_amd64.deb ...
+Unpacking libevent-core-2.1-6:amd64 (2.1.8-stable-4build1) ...
+Setting up mysql-common (5.8+1.0.4) ...
+update-alternatives: using /etc/mysql/my.cnf.fallback to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+Selecting previously unselected package mysql-server-5.7.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 127989 files and directories currently installed.)
+Preparing to unpack .../mysql-server-5.7_5.7.30-0ubuntu0.18.04.1_amd64.deb ...
+Unpacking mysql-server-5.7 (5.7.30-0ubuntu0.18.04.1) ...
+Selecting previously unselected package libhtml-template-perl.
+Preparing to unpack .../libhtml-template-perl_2.97-1_all.deb ...
+Unpacking libhtml-template-perl (2.97-1) ...
+Selecting previously unselected package mysql-server.
+Preparing to unpack .../mysql-server_5.7.30-0ubuntu0.18.04.1_all.deb ...
+Unpacking mysql-server (5.7.30-0ubuntu0.18.04.1) ...
+Setting up libevent-core-2.1-6:amd64 (2.1.8-stable-4build1) ...
+Setting up libhtml-template-perl (2.97-1) ...
+Setting up libaio1:amd64 (0.3.110-5ubuntu0.1) ...
+Setting up mysql-client-core-5.7 (5.7.30-0ubuntu0.18.04.1) ...
+Setting up mysql-server-core-5.7 (5.7.30-0ubuntu0.18.04.1) ...
+Setting up mysql-client-5.7 (5.7.30-0ubuntu0.18.04.1) ...
+Setting up mysql-server-5.7 (5.7.30-0ubuntu0.18.04.1) ...
+update-alternatives: using /etc/mysql/mysql.cnf to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+Renaming removed key_buffer and myisam-recover options (if present)
+Created symlink /etc/systemd/system/multi-user.target.wants/mysql.service → /lib/systemd/system/mysql.service.
+Setting up mysql-server (5.7.30-0ubuntu0.18.04.1) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Processing triggers for systemd (237-3ubuntu10.33) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for ureadahead (0.100.0-21) ...
+ureadahead will be reprofiled on next reboot
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ 
+[K]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ mysql -u root -p
+Enter password: 
+ERROR 1698 (28000): Access denied for user 'root'@'localhost'
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ mysql -u root -p
+Enter password: 
+ERROR 1698 (28000): Access denied for user 'root'@'localhost'
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ mysql -u root -p
+Enter password: 
+ERROR 1698 (28000): Access denied for user 'root'@'localhost'
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ mysql -u root -p
+Enter password: 
+ERROR 1698 (28000): Access denied for user 'root'@'localhost'
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ mysql -u root -p
+Enter password: 
+ERROR 1698 (28000): Access denied for user 'root'@'localhost'
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ mysql -u root -psudo apt-get install mysql-server
+[K]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ sudo apt-get install mysql-server
+[K]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ sudo apt-get install mysql-server[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksudo apt-get install MySQL-server[7Pservice apache2 startapt-get install apache2[9Pupdate[4P updateexit[K[K[K[K[Ksudo service mysql start
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ sudo service mysql start[8Pmysql -u root -p
+Enter password: 
+ERROR 1698 (28000): Access denied for user 'root'@'localhost'
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ mysql -u root -p
+Enter password: 
+ERROR 1698 (28000): Access denied for user 'root'@'localhost'
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ mysql -u root -psudo service mysql start
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ sudo service mysql start[8Pmysql -u root -p
+Enter password: 
+ERROR 1698 (28000): Access denied for user 'root'@'localhost'
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ mysql -u root -psudo service mysql start[8Pmysql -u root -psudo service mysql start[8Pmysql -u root -p[Ksudo apt-get install MySQL-server[7Pservice apache2 startapt-get install apache2[2Pservice apache2 startapt-get install MySQL-server[1P-server[1P-server[1P-server[1P-server[1P-server[1P-server -serverm-servery-servers-serverq-serverl-server
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+mysql-server is already the newest version (5.7.30-0ubuntu0.18.04.1).
+0 upgraded, 0 newly installed, 0 to remove and 217 not upgraded.
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ sudo apt-get install mysql-server[17Pmysql -u root -p
+Enter password: 
+ERROR 1698 (28000): Access denied for user 'root'@'localhost'
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ mysql -u root -p
+Enter password: 
+ERROR 1698 (28000): Access denied for user 'root'@'localhost'
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ mysql -u root -p[Kroot
+ERROR 1698 (28000): Access denied for user 'root'@'localhost'
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ mysql -u root -root
+ERROR 1698 (28000): Access denied for user 'root'@'localhost'
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ mysql -u root -rootp[Ksudo apt-get install mysql-server
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+mysql-server is already the newest version (5.7.30-0ubuntu0.18.04.1).
+0 upgraded, 0 newly installed, 0 to remove and 217 not upgraded.
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ sudo apt-get install mysql-server[14Pmysql -u root -rootp[Ksudo apt-get install mysql-server[17Pmysql -u root -psudo service mysql start
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ sudo service mysql startapt-get install mysql-server[14Pmysql -u root -root
+ERROR 1698 (28000): Access denied for user 'root'@'localhost'
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ mysql -u root -p
+Enter password: 
+ERROR 1698 (28000): Access denied for user 'root'@'localhost'
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ mysql -u root -prootp[K
+Enter password: 
+ERROR 1698 (28000): Access denied for user 'root'@'localhost'
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ mysql -u root -p
+Enter password: 
+ERROR 1698 (28000): Access denied for user 'root'@'localhost'
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ mysql -u root -p
+Enter password: 
+ERROR 1698 (28000): Access denied for user 'root'@'localhost'
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ apt-cache  [K[K[Ke policy mysql-server
+mysql-server:
+  Installed: 5.7.30-0ubuntu0.18.04.1
+  Candidate: 5.7.30-0ubuntu0.18.04.1
+  Version table:
+ *** 5.7.30-0ubuntu0.18.04.1 500
+        500 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 Packages
+        500 http://in.archive.ubuntu.com/ubuntu bionic-updates/main i386 Packages
+        500 http://security.ubuntu.com/ubuntu bionic-security/main amd64 Packages
+        500 http://security.ubuntu.com/ubuntu bionic-security/main i386 Packages
+        100 /var/lib/dpkg/status
+     5.7.21-1ubuntu1 500
+        500 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 Packages
+        500 http://in.archive.ubuntu.com/ubuntu bionic/main i386 Packages
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ dpkg-reconfigure mysql-sever-5.7
+/usr/sbin/dpkg-reconfigure must be run as root
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ dpkg-reconfigure mysql-sever-5.7
+/usr/sbin/dpkg-reconfigure must be run as root
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ dpkg-reconfigure mysql-sever-5.7[3Papt-cache policy mysql-server[13Pmysql -u root -prootsudo service mysql startapt-get install mysql-server[14Pmysql -u root -root[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp[Ksudo apt-get install mysql-server[17Pmysql -u root -p[1@s[1@u[1@d[1@o[1@ 
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 19
+Server version: 5.7.30-0ubuntu0.18.04.1 (Ubuntu)
+
+Copyright (c) 2000, 2020, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> use mysql;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> shi[Kow databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+4 rows in set (0.01 sec)
+
+mysql> use mysql;
+Database changed
+mysql> ser[Klect user,hosr[Kt,piugin from mysql user;
+ERROR 1146 (42S02): Table 'mysql.mysql' doesn't exist
+mysql> select user,host,piugin from mysql user;[Pu[1@.u
+ERROR 1054 (42S22): Unknown column 'piugin' in 'field list'
+mysql> select user,host,piugin from mysql.user;[Pu[1@lu
++------------------+-----------+-----------------------+
+| user             | host      | plugin                |
++------------------+-----------+-----------------------+
+| root             | localhost | auth_socket           |
+| mysql.session    | localhost | mysql_native_password |
+| mysql.sys        | localhost | mysql_native_password |
+| debian-sys-maint | localhost | mysql_native_password |
++------------------+-----------+-----------------------+
+4 rows in set (0.01 sec)
+
+mysql>  create user 'gopika,@[K[K'@'localhost' identified by '***********';
+Query OK, 0 rows affected (0.03 sec)
+
+[P'[P'[P'[P'[P'[1@g'[1@o'[1@p'[1@i'[1@k'[1@a'
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'privilages on *.* to 'gopika'@'localhost'' at line 1
+mysql> grant all privilages on *.* to 'gopika'@'localhost';[8G[Kgrant all privilages on *.* to 'gopika'@'localhost';[Pa[1@laa[Pg[1@eg
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> update user set plugin="auth-[K_socket:[K" where User=""g"o"p"i"k"a""[K'"[Pg[1@'ggopika';
+Query OK, 1 row affected (0.02 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> flush privilegr[Kes;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> exit
+Bye
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ sudo mysql -u root -pdpkg-reconfigure mysql-sever-5.7[3Papt-cache policy mysql-server[13Pmysql -u root -prootsudo service mysql startrstartestart
+[sudo] password for gopika: 
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ sudo service mysql restart[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksudo mysql -u root -pdpkg-reconfigure mysql-sever-5.7[3Papt-cache policy mysql-server[13Pmysql -u root -prootp[K[C[1P -p[1P -p[1P -p[1P -pg -po -pp -pi -pk -pa -p
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 2
+Server version: 5.7.30-0ubuntu0.18.04.1 (Ubuntu)
+
+Copyright (c) 2000, 2020, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+4 rows in set (0.00 sec)
+
+mysql> exit
+Bye
+]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ 
+[K]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ 
+[K]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ 
+[K]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$  sudo apt install php libapache2-mod-ph
+hp php-mysql
+[K[A]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$  sudo apt install php libapache2-mod-php php-mysql
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following additional packages will be installed:
+  libapache2-mod-php7.2 php-common php7.2 php7.2-cli php7.2-common php7.2-json php7.2-mysql php7.2-opcache php7.2-readline
+Suggested packages:
+  php-pear
+The following NEW packages will be installed:
+  libapache2-mod-php libapache2-mod-php7.2 php php-common php-mysql php7.2 php7.2-cli php7.2-common php7.2-json php7.2-mysql php7.2-opcache
+  php7.2-readline
+0 upgraded, 12 newly installed, 0 to remove and 217 not upgraded.
+Need to get 3,990 kB of archives.
+After this operation, 17.6 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m
+0% [Working][0m
+            
+Get:1 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 php-common all 1:60ubuntu1 [12.1 kB]
+[33m
+0% [1 php-common 1,093 B/12.1 kB 9%][0m[33m
+                                    
+2% [Working][0m
+            
+Get:2 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 php7.2-common amd64 7.2.24-0ubuntu0.18.04.6 [888 kB]
+[33m
+2% [2 php7.2-common 1,091 B/888 kB 0%][0m[33m
+3% [2 php7.2-common 75.8 kB/888 kB 9%][0m[33m
+4% [2 php7.2-common 102 kB/888 kB 11%][0m[33m
+4% [2 php7.2-common 111 kB/888 kB 13%][0m[33m
+4% [2 php7.2-common 115 kB/888 kB 13%][0m[33m
+5% [2 php7.2-common 171 kB/888 kB 19%][0m[33m
+7% [2 php7.2-common 267 kB/888 kB 30%][0m[33m
+9% [2 php7.2-common 342 kB/888 kB 39%][0m[33m
+11% [2 php7.2-common 429 kB/888 kB 48%][0m[33m
+13% [2 php7.2-common 532 kB/888 kB 60%][0m[33m
+15% [2 php7.2-common 638 kB/888 kB 72%][0m[33m
+17% [2 php7.2-common 752 kB/888 kB 85%]                                                                                          124 kB/s 25s[0m[33m
+19% [2 php7.2-common 853 kB/888 kB 96%]                                                                                          124 kB/s 25s[0m[33m
+21% [Working]                                                                                                                    124 kB/s 24s[0m
+                                                                                                                                             
+Get:3 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 php7.2-json amd64 7.2.24-0ubuntu0.18.04.6 [18.9 kB]
+[33m
+21% [3 php7.2-json 846 B/18.9 kB 4%]                                                                                             124 kB/s 24s[0m[33m
+23% [Working]                                                                                                                    124 kB/s 24s[0m
+                                                                                                                                             
+Get:4 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 php7.2-opcache amd64 7.2.24-0ubuntu0.18.04.6 [165 kB]
+[33m
+23% [4 php7.2-opcache 2,605 B/165 kB 2%]                                                                                         124 kB/s 24s[0m[33m
+26% [4 php7.2-opcache 135 kB/165 kB 81%]                                                                                         124 kB/s 23s[0m[33m
+28% [Working]                                                                                                                    124 kB/s 23s[0m
+                                                                                                                                             
+Get:5 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 php7.2-readline amd64 7.2.24-0ubuntu0.18.04.6 [12.2 kB]
+[33m
+28% [5 php7.2-readline 285 B/12.2 kB 2%]                                                                                         124 kB/s 23s[0m[33m
+30% [Working]                                                                                                                    124 kB/s 23s[0m
+                                                                                                                                             
+Get:6 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 php7.2-cli amd64 7.2.24-0ubuntu0.18.04.6 [1,408 kB]
+[33m
+30% [6 php7.2-cli 1,089 B/1,408 kB 0%]                                                                                           124 kB/s 23s[0m[33m
+33% [6 php7.2-cli 110 kB/1,408 kB 8%]                                                                                            124 kB/s 22s[0m[33m
+35% [6 php7.2-cli 216 kB/1,408 kB 15%]                                                                                           124 kB/s 21s[0m[33m
+37% [6 php7.2-cli 311 kB/1,408 kB 22%]                                                                                           124 kB/s 20s[0m[33m
+38% [6 php7.2-cli 399 kB/1,408 kB 28%]                                                                                           124 kB/s 20s[0m[33m
+40% [6 php7.2-cli 486 kB/1,408 kB 35%]                                                                                           124 kB/s 19s[0m[33m
+42% [6 php7.2-cli 580 kB/1,408 kB 41%]                                                                                           124 kB/s 18s[0m[33m
+44% [6 php7.2-cli 675 kB/1,408 kB 48%]                                                                                           124 kB/s 17s[0m[33m
+44% [6 php7.2-cli 675 kB/1,408 kB 48%]                                                                                           124 kB/s 17s[0m[33m
+44% [6 php7.2-cli 675 kB/1,408 kB 48%]                                                                                           124 kB/s 17s[0m[33m
+44% [6 php7.2-cli 675 kB/1,408 kB 48%]                                                                                           159 kB/s 13s[0m[33m
+46% [6 php7.2-cli 772 kB/1,408 kB 55%]                                                                                           159 kB/s 13s[0m[33m
+50% [6 php7.2-cli 995 kB/1,408 kB 71%]                                                                                           159 kB/s 11s[0m[33m
+53% [6 php7.2-cli 1,149 kB/1,408 kB 82%]                                                                                         159 kB/s 10s[0m[33m
+54% [6 php7.2-cli 1,165 kB/1,408 kB 83%]                                                                                         159 kB/s 10s[0m[33m
+54% [6 php7.2-cli 1,197 kB/1,408 kB 85%]                                                                                         159 kB/s 10s[0m[33m
+54% [6 php7.2-cli 1,199 kB/1,408 kB 85%]                                                                                         159 kB/s 10s[0m[33m
+54% [6 php7.2-cli 1,199 kB/1,408 kB 85%]                                                                                         159 kB/s 10s[0m[33m
+55% [6 php7.2-cli 1,231 kB/1,408 kB 87%]                                                                                         159 kB/s 10s[0m[33m
+55% [6 php7.2-cli 1,252 kB/1,408 kB 89%]                                                                                         159 kB/s 10s[0m[33m
+57% [6 php7.2-cli 1,306 kB/1,408 kB 93%]                                                                                          159 kB/s 9s[0m[33m
+60% [Working]                                                                                                                     159 kB/s 9s[0m
+                                                                                                                                             
+Get:7 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libapache2-mod-php7.2 amd64 7.2.24-0ubuntu0.18.04.6 [1,350 kB]
+[33m
+61% [7 libapache2-mod-php7.2 49.2 kB/1,350 kB 4%]                                                                                 159 kB/s 9s[0m[33m
+62% [7 libapache2-mod-php7.2 107 kB/1,350 kB 8%]                                                                                  159 kB/s 8s[0m[33m
+66% [7 libapache2-mod-php7.2 302 kB/1,350 kB 22%]                                                                                 166 kB/s 7s[0m[33m
+70% [7 libapache2-mod-php7.2 509 kB/1,350 kB 38%]                                                                                 166 kB/s 5s[0m[33m
+75% [7 libapache2-mod-php7.2 743 kB/1,350 kB 55%]                                                                                 166 kB/s 4s[0m[33m
+79% [7 libapache2-mod-php7.2 952 kB/1,350 kB 71%]                                                                                 166 kB/s 3s[0m[33m
+85% [7 libapache2-mod-php7.2 1,235 kB/1,350 kB 91%]                                                                               166 kB/s 1s[0m[33m
+89% [Working]                                                                                                                     166 kB/s 0s[0m
+                                                                                                                                             
+Get:8 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libapache2-mod-php all 1:7.2+60ubuntu1 [3,212 B]
+[33m
+91% [Waiting for headers]                                                                                                         166 kB/s 0s[0m
+                                                                                                                                             
+Get:9 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 php7.2 all 7.2.24-0ubuntu0.18.04.6 [9,244 B]
+[33m
+91% [9 php7.2 1,497 B/9,244 B 16%]                                                                                                166 kB/s 0s[0m[33m
+93% [Working]                                                                                                                     166 kB/s 0s[0m
+                                                                                                                                             
+Get:10 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 php all 1:7.2+60ubuntu1 [3,084 B]
+[33m
+93% [10 php 2,854 B/3,084 B 93%]                                                                                                  166 kB/s 0s[0m[33m
+94% [Working]                                                                                                                     166 kB/s 0s[0m
+                                                                                                                                             
+Get:11 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 php7.2-mysql amd64 7.2.24-0ubuntu0.18.04.6 [117 kB]
+[33m
+94% [11 php7.2-mysql 861 B/117 kB 1%]                                                                                             166 kB/s 0s[0m[33m
+98% [Working]                                                                                                                     166 kB/s 0s[0m
+                                                                                                                                             
+Get:12 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 php-mysql all 1:7.2+60ubuntu1 [2,004 B]
+[33m
+98% [12 php-mysql 831 B/2,004 B 41%]                                                                                              166 kB/s 0s[0m[33m
+100% [Working]                                                                                                                    166 kB/s 0s[0m
+                                                                                                                                             
+Fetched 3,990 kB in 21s (187 kB/s)
+
+7[0;37r8[1ASelecting previously unselected package php-common.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 128090 files and directories currently installed.)
+Preparing to unpack .../00-php-common_1%3a60ubuntu1_all.deb ...
+7[38;0f[42m[30mProgress: [  0%][49m[39m [........................................................................................................................] 87[38;0f[42m[30mProgress: [  2%][49m[39m [#.......................................................................................................................] 8Unpacking php-common (1:60ubuntu1) ...
+7[38;0f[42m[30mProgress: [  3%][49m[39m [###.....................................................................................................................] 87[38;0f[42m[30mProgress: [  5%][49m[39m [#####...................................................................................................................] 8Selecting previously unselected package php7.2-common.
+Preparing to unpack .../01-php7.2-common_7.2.24-0ubuntu0.18.04.6_amd64.deb ...
+7[38;0f[42m[30mProgress: [  7%][49m[39m [#######.................................................................................................................] 8Unpacking php7.2-common (7.2.24-0ubuntu0.18.04.6) ...
+7[38;0f[42m[30mProgress: [  8%][49m[39m [#########...............................................................................................................] 87[38;0f[42m[30mProgress: [ 10%][49m[39m [###########.............................................................................................................] 8Selecting previously unselected package php7.2-json.
+Preparing to unpack .../02-php7.2-json_7.2.24-0ubuntu0.18.04.6_amd64.deb ...
+7[38;0f[42m[30mProgress: [ 11%][49m[39m [#############...........................................................................................................] 8Unpacking php7.2-json (7.2.24-0ubuntu0.18.04.6) ...
+7[38;0f[42m[30mProgress: [ 13%][49m[39m [###############.........................................................................................................] 87[38;0f[42m[30mProgress: [ 15%][49m[39m [#################.......................................................................................................] 8Selecting previously unselected package php7.2-opcache.
+Preparing to unpack .../03-php7.2-opcache_7.2.24-0ubuntu0.18.04.6_amd64.deb ...
+7[38;0f[42m[30mProgress: [ 16%][49m[39m [###################.....................................................................................................] 8Unpacking php7.2-opcache (7.2.24-0ubuntu0.18.04.6) ...
+7[38;0f[42m[30mProgress: [ 18%][49m[39m [#####################...................................................................................................] 87[38;0f[42m[30mProgress: [ 20%][49m[39m [#######################.................................................................................................] 8Selecting previously unselected package php7.2-readline.
+Preparing to unpack .../04-php7.2-readline_7.2.24-0ubuntu0.18.04.6_amd64.deb ...
+7[38;0f[42m[30mProgress: [ 21%][49m[39m [#########################...............................................................................................] 8Unpacking php7.2-readline (7.2.24-0ubuntu0.18.04.6) ...
+7[38;0f[42m[30mProgress: [ 23%][49m[39m [###########################.............................................................................................] 87[38;0f[42m[30mProgress: [ 25%][49m[39m [#############################...........................................................................................] 8Selecting previously unselected package php7.2-cli.
+Preparing to unpack .../05-php7.2-cli_7.2.24-0ubuntu0.18.04.6_amd64.deb ...
+7[38;0f[42m[30mProgress: [ 26%][49m[39m [###############################.........................................................................................] 8Unpacking php7.2-cli (7.2.24-0ubuntu0.18.04.6) ...
+7[38;0f[42m[30mProgress: [ 28%][49m[39m [#################################.......................................................................................] 87[38;0f[42m[30mProgress: [ 30%][49m[39m [###################################.....................................................................................] 8Selecting previously unselected package libapache2-mod-php7.2.
+Preparing to unpack .../06-libapache2-mod-php7.2_7.2.24-0ubuntu0.18.04.6_amd64.deb ...
+7[38;0f[42m[30mProgress: [ 31%][49m[39m [#####################################...................................................................................] 8Unpacking libapache2-mod-php7.2 (7.2.24-0ubuntu0.18.04.6) ...
+7[38;0f[42m[30mProgress: [ 33%][49m[39m [#######################################.................................................................................] 87[38;0f[42m[30mProgress: [ 34%][49m[39m [#########################################...............................................................................] 8Selecting previously unselected package libapache2-mod-php.
+Preparing to unpack .../07-libapache2-mod-php_1%3a7.2+60ubuntu1_all.deb ...
+7[38;0f[42m[30mProgress: [ 36%][49m[39m [###########################################.............................................................................] 8Unpacking libapache2-mod-php (1:7.2+60ubuntu1) ...
+7[38;0f[42m[30mProgress: [ 38%][49m[39m [#############################################...........................................................................] 87[38;0f[42m[30mProgress: [ 39%][49m[39m [###############################################.........................................................................] 8Selecting previously unselected package php7.2.
+Preparing to unpack .../08-php7.2_7.2.24-0ubuntu0.18.04.6_all.deb ...
+7[38;0f[42m[30mProgress: [ 41%][49m[39m [#################################################.......................................................................] 8Unpacking php7.2 (7.2.24-0ubuntu0.18.04.6) ...
+7[38;0f[42m[30mProgress: [ 43%][49m[39m [###################################################.....................................................................] 87[38;0f[42m[30mProgress: [ 44%][49m[39m [#####################################################...................................................................] 8Selecting previously unselected package php.
+Preparing to unpack .../09-php_1%3a7.2+60ubuntu1_all.deb ...
+7[38;0f[42m[30mProgress: [ 46%][49m[39m [#######################################################.................................................................] 8Unpacking php (1:7.2+60ubuntu1) ...
+7[38;0f[42m[30mProgress: [ 48%][49m[39m [#########################################################...............................................................] 87[38;0f[42m[30mProgress: [ 49%][49m[39m [###########################################################.............................................................] 8Selecting previously unselected package php7.2-mysql.
+Preparing to unpack .../10-php7.2-mysql_7.2.24-0ubuntu0.18.04.6_amd64.deb ...
+7[38;0f[42m[30mProgress: [ 51%][49m[39m [############################################################............................................................] 8Unpacking php7.2-mysql (7.2.24-0ubuntu0.18.04.6) ...
+7[38;0f[42m[30mProgress: [ 52%][49m[39m [##############################################################..........................................................] 87[38;0f[42m[30mProgress: [ 54%][49m[39m [################################################################........................................................] 8Selecting previously unselected package php-mysql.
+Preparing to unpack .../11-php-mysql_1%3a7.2+60ubuntu1_all.deb ...
+7[38;0f[42m[30mProgress: [ 56%][49m[39m [##################################################################......................................................] 8Unpacking php-mysql (1:7.2+60ubuntu1) ...
+7[38;0f[42m[30mProgress: [ 57%][49m[39m [####################################################################....................................................] 87[38;0f[42m[30mProgress: [ 59%][49m[39m [######################################################################..................................................] 8Setting up php-common (1:60ubuntu1) ...
+7[38;0f[42m[30mProgress: [ 61%][49m[39m [########################################################################................................................] 8Created symlink /etc/systemd/system/timers.target.wants/phpsessionclean.timer → /lib/systemd/system/phpsessionclean.timer.
+7[38;0f[42m[30mProgress: [ 62%][49m[39m [##########################################################################..............................................] 8Setting up php7.2-common (7.2.24-0ubuntu0.18.04.6) ...
+7[38;0f[42m[30mProgress: [ 64%][49m[39m [############################################################################............................................] 8
+Creating config file /etc/php/7.2/mods-available/calendar.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/ctype.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/exif.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/fileinfo.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/ftp.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/gettext.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/iconv.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/pdo.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/phar.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/posix.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/shmop.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/sockets.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/sysvmsg.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/sysvsem.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/sysvshm.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/tokenizer.ini with new version
+7[38;0f[42m[30mProgress: [ 66%][49m[39m [##############################################################################..........................................] 8Setting up php7.2-readline (7.2.24-0ubuntu0.18.04.6) ...
+7[38;0f[42m[30mProgress: [ 67%][49m[39m [################################################################################........................................] 8
+Creating config file /etc/php/7.2/mods-available/readline.ini with new version
+7[38;0f[42m[30mProgress: [ 69%][49m[39m [##################################################################################......................................] 8Setting up php7.2-json (7.2.24-0ubuntu0.18.04.6) ...
+7[38;0f[42m[30mProgress: [ 70%][49m[39m [####################################################################################....................................] 8
+Creating config file /etc/php/7.2/mods-available/json.ini with new version
+7[38;0f[42m[30mProgress: [ 72%][49m[39m [######################################################################################..................................] 8Setting up php7.2-opcache (7.2.24-0ubuntu0.18.04.6) ...
+7[38;0f[42m[30mProgress: [ 74%][49m[39m [########################################################################################................................] 8
+Creating config file /etc/php/7.2/mods-available/opcache.ini with new version
+7[38;0f[42m[30mProgress: [ 75%][49m[39m [##########################################################################################..............................] 8Setting up php7.2-mysql (7.2.24-0ubuntu0.18.04.6) ...
+7[38;0f[42m[30mProgress: [ 77%][49m[39m [############################################################################################............................] 8
+Creating config file /etc/php/7.2/mods-available/mysqlnd.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/mysqli.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/pdo_mysql.ini with new version
+7[38;0f[42m[30mProgress: [ 79%][49m[39m [##############################################################################################..........................] 8Setting up php7.2-cli (7.2.24-0ubuntu0.18.04.6) ...
+7[38;0f[42m[30mProgress: [ 80%][49m[39m [################################################################################################........................] 8update-alternatives: using /usr/bin/php7.2 to provide /usr/bin/php (php) in auto mode
+update-alternatives: using /usr/bin/phar7.2 to provide /usr/bin/phar (phar) in auto mode
+update-alternatives: using /usr/bin/phar.phar7.2 to provide /usr/bin/phar.phar (phar.phar) in auto mode
+
+Creating config file /etc/php/7.2/cli/php.ini with new version
+7[38;0f[42m[30mProgress: [ 82%][49m[39m [##################################################################################################......................] 8Setting up libapache2-mod-php7.2 (7.2.24-0ubuntu0.18.04.6) ...
+7[38;0f[42m[30mProgress: [ 84%][49m[39m [####################################################################################################....................] 8
+Creating config file /etc/php/7.2/apache2/php.ini with new version
+Module mpm_event disabled.
+Enabling module mpm_prefork.
+apache2_switch_mpm Switch to prefork
+apache2_invoke: Enable module php7.2
+7[38;0f[42m[30mProgress: [ 85%][49m[39m [######################################################################################################..................] 8Setting up php-mysql (1:7.2+60ubuntu1) ...
+7[38;0f[42m[30mProgress: [ 87%][49m[39m [########################################################################################################................] 87[38;0f[42m[30mProgress: [ 89%][49m[39m [##########################################################################################################..............] 8Setting up libapache2-mod-php (1:7.2+60ubuntu1) ...
+7[38;0f[42m[30mProgress: [ 90%][49m[39m [############################################################################################################............] 87[38;0f[42m[30mProgress: [ 92%][49m[39m [##############################################################################################################..........] 8Setting up php7.2 (7.2.24-0ubuntu0.18.04.6) ...
+7[38;0f[42m[30mProgress: [ 93%][49m[39m [################################################################################################################........] 87[38;0f[42m[30mProgress: [ 95%][49m[39m [##################################################################################################################......] 8Setting up php (1:7.2+60ubuntu1) ...
+7[38;0f[42m[30mProgress: [ 97%][49m[39m [####################################################################################################################....] 87[38;0f[42m[30mProgress: [ 98%][49m[39m [######################################################################################################################..] 8Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+
+7[0;38r8[1A[J]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ 
+[K]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$ 
+[K]0;gopika@gopika-20: ~/ceccs18c18/cs232/1306[01;32mgopika@gopika-20[00m:[01;34m~/ceccs18c18/cs232/1306[00m$  nano info.php
+[?1049h[22;0;0t[1;38r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[49m(B[m[H[2J[36;66H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                                                      info.php                                                                [1;141H(B[m
+[37d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text  (B[0;7mM-](B[m To Bracket
+[38d(B[0;7m^X(B[m Exit[38;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text  (B[0;7mM-W(B[m WhereIs Next
+[36d[3d[49m(B[m[?12l[?25h[38;1H[?1049l[23;0;0t
+[?1l>[?1049h[22;0;0t[1;24r[?12l[?25h[39;49m]104(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 2.9.3                                                      info.php  [3;1H(B[m[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.9.3                                                      info.php  [23;1H(B[m[1;40H(B[0;7minfo.php[1;71H        (B[m
+[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
+[24d(
